@@ -8,5 +8,7 @@ target 'CustomViewMVVM' do
   # Pods for CustomViewMVVM  
    
  #  pod 'ObjectMapper', '~> 3.5'
+	
+    pod 'IQKeyboardManagerSwift'
 
 end
