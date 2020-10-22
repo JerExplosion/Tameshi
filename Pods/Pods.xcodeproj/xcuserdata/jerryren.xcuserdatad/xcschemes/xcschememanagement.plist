@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-CustomViewMVVM.xcscheme</key>
+		<key>FBRetainCycleDetector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NetworkLayerConstruction.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
