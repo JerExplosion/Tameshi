@@ -1,16 +1,20 @@
 PODS:
   - IQKeyboardManagerSwift (6.5.6)
+  - ObjectMapper (3.5.3)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
+  - ObjectMapper (~> 3.5)
 
 SPEC REPOS:
   trunk:
     - IQKeyboardManagerSwift
+    - ObjectMapper
 
 SPEC CHECKSUMS:
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
 
-PODFILE CHECKSUM: 841aa6600e1a1044230ff8ac3eed7bc244c7cd13
+PODFILE CHECKSUM: 4fa32539263cac362251018e5251415c7a120dca
 
 COCOAPODS: 1.9.2
