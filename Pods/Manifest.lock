@@ -1,20 +1,24 @@
 PODS:
   - FBRetainCycleDetector (0.1.4)
   - SVProgressHUD (2.2.5)
+  - ViewAnimator (3.0.1)
 
 DEPENDENCIES:
   - FBRetainCycleDetector
   - SVProgressHUD
+  - ViewAnimator
 
 SPEC REPOS:
   trunk:
     - FBRetainCycleDetector
     - SVProgressHUD
+    - ViewAnimator
 
 SPEC CHECKSUMS:
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  ViewAnimator: dd18d2f5c1e472f78d0065ff92750fe56cbd2f39
 
-PODFILE CHECKSUM: f79ef9fab947668935729f8637aeab2c310e600a
+PODFILE CHECKSUM: 102847d0f7e516f4d82c1b5eb63adcd845c1aefa
 
 COCOAPODS: 1.9.2
