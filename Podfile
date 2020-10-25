@@ -18,5 +18,7 @@
       pod 'FBRetainCycleDetector' 
         
        pod 'ViewAnimator'
+	
+        pod "SwiftSpinner"
 
 end
