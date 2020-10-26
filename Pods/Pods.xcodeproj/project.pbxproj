@@ -7,112 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02941F1F5BA91B5EE2DAEA0EAE8B5F28 /* FBNodeEnumerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D9F7101727B018926F787F7F58B9C3F /* FBNodeEnumerator.mm */; };
-		03AEA342BF8482A6067576E9461B2B55 /* FBBlockStrongLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E29F8FDEFD499EC5470ECCB47E23A0A /* FBBlockStrongLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		05862B810862D38EE6F6D22A73A3C586 /* FBRetainCycleDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FE3D80EEECFC15051093C3AAD097A9 /* FBRetainCycleDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		066F615680F8B09B7E42273A0DC6BC18 /* FBObjectiveCGraphElement.mm in Sources */ = {isa = PBXBuildFile; fileRef = BE5074BD6C5DA9660367290C5A2DD853 /* FBObjectiveCGraphElement.mm */; };
-		081AD2D7A4E79B029748CBBDD242D524 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 124FE3B9AA508BC4B601714422441B81 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5F7711079E8E9CCF09B53795535D92 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E5039728F2E0E22EF738CC6295AD985 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F38A3FCB44D78D2462EBA52BB601D9B /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12037CF1725DCE156F30F0F2F1B0DC99 /* FBStandardGraphEdgeFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6A55D3FD3D12232FC1D2541947423C /* FBStandardGraphEdgeFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16277F2E3455133F45D6BA9B3E89C891 /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824184154B6F9EF58663CC3C586A3981 /* ViewAnimator.swift */; };
-		180B0A2700311118F337952F0C61BB89 /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F1E90E4E65479C6BDDA7493004ECED /* Type.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		18BA8DB57594BE50190BC1BBB49CCF13 /* FBObjectiveCNSCFTimer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2B5094716C5FF2A30B0278E5F8766 /* FBObjectiveCNSCFTimer.mm */; };
-		1A76E4DF2F7D18F483DE30CE4BDCFD92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8A73BC56992B5407DA3733563D1C08 /* Foundation.framework */; };
-		1AB5BA433F47C2F7DFB0DA0E4B929162 /* FBAssociationManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD4DE81AACA3F2B84DA95E84F62D54DB /* FBAssociationManager.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AD97D28FDE4AC7A0A28109410A56EBC /* FBRetainCycleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0455469E492B51403FF9F79DB066CB /* FBRetainCycleUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1AECCF6B5E3434FE0C303E8EDE37DE6E /* FBAssociationManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4547CE64A2DE3287270371FBB9A6920A /* FBAssociationManager+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1BE446E3EAEBC93BAA70A18B97681D81 /* FBClassStrongLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5F588D41BC19D819F98D46C55D67F /* FBClassStrongLayout.mm */; };
-		2215270E543BAE806B6CB19DCC8CE8A9 /* FBObjectiveCGraphElement+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 099BD8B6BCC5622A2D22A916DE3D34EC /* FBObjectiveCGraphElement+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2502EA6AE719CDF842B94C7A211D012E /* FBObjectInStructReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0200D1B710B9144141AE70444A5E9270 /* FBObjectInStructReference.m */; };
-		2533D298BD148D74770EB6BE8DF833D4 /* FBStandardGraphEdgeFilters.mm in Sources */ = {isa = PBXBuildFile; fileRef = 729092AE2AA162FF59F507A34EFF23B9 /* FBStandardGraphEdgeFilters.mm */; };
-		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B03A78CC989CC6661AEFD88A4C03EFEB /* SVProgressHUD.bundle */; };
-		26CFACEC1D36DE12D8C462864AD1D4B3 /* Struct.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCC7A68FB4F41A6ECB17E327E2FE9FC0 /* Struct.mm */; };
-		2C7EAB29618D45F847ADEF4D9DE1E059 /* FBStructEncodingParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 665725605B842E4B77AD54AADD74DA3A /* FBStructEncodingParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2F1C1C0B1AC28CA68EAE15A6B75C6BCF /* FBObjectiveCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE67464D861C61B07142549C7F0A13 /* FBObjectiveCObject.m */; };
-		30799A4439BAE1320EE857AA720FC608 /* FBObjectiveCGraphElement.h in Headers */ = {isa = PBXBuildFile; fileRef = CC73895F71DD6BB9891E47947F2A2F40 /* FBObjectiveCGraphElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32303EDFF7F90BA71936B7D4876D107D /* FBRetainCycleDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D8C9DB7E7A0836707ACE9B9B22AC3F /* FBRetainCycleDetector-dummy.m */; };
-		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54F64B1B6D1D9492AC78911947A104 /* SVProgressHUD.m */; };
-		36025E4DF6385AB0C81088DBADD65C5A /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 27E2E07F6114D75BC769C007F3E02DBC /* fishhook.c */; };
-		368091B1382E9796F814F9AA94E87B67 /* FBObjectiveCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DD257DC23FC72B10C6F810A5723BE5AA /* FBObjectiveCBlock.m */; };
-		3FD16B601F57FC15298B2C38DD872C2D /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732BB8B1198378AB76EC2058B477C15 /* ViewAnimatorConfig.swift */; };
-		4A668A831CC56A8703854F7F21C093CB /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C67F98817E63E8F67A0B2B0EB1939E2 /* UICollectionView + ViewAnimator.swift */; };
-		4C6D22C4D8E88A5E73C9195EA35FBFFE /* FBRetainCycleDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EB2ABFB56B39A308290DCE4F2BA83 /* FBRetainCycleDetector.mm */; };
-		4CDF1AF4556A90CA91E98B21160EBD0A /* FBAssociationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C327D4195561521E6CDE74C9C60B09 /* FBAssociationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		558F4F4E3DD0632771BFF4805DDBF9D2 /* FBBlockStrongRelationDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A34E1A68755221AC0F4AEB6BE6EF7 /* FBBlockStrongRelationDetector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5AE67238AF5D3CF8193F89AB7E086F99 /* FBRetainCycleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6F13243B3AC692A006BB1FAB29B24 /* FBRetainCycleUtils.m */; };
-		7282E05A35E9842E91AE977514B28101 /* Pods-NetworkLayerConstruction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65746775DCEAFBE7680281C4C29E2955 /* Pods-NetworkLayerConstruction-dummy.m */; };
-		7654D9CA761CE5A7E9CDE4000D6FE329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8A73BC56992B5407DA3733563D1C08 /* Foundation.framework */; };
-		76839FCC744576AAA29DF81544EBED6A /* FBObjectiveCBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = DC53CD203B46F444238CBC65D82B0A42 /* FBObjectiveCBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C58D67FA200741C43D009E0DB4BF6B3 /* FBNodeEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA52F14B312A241C9CC81AB98AE1683 /* FBNodeEnumerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7D0B7903FBA88703938682451BD70993 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F28CCA41B24D58742EB73C2764DB9 /* Animation.swift */; };
-		7FC5F9908B0E7594979CDAA2105A363C /* FBRetainCycleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = E9446A9838DE5F9339CB67128B875ED8 /* FBRetainCycleDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FD706309F83F6E4F9BE1EEE7382F1B3 /* FBClassStrongLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AB04E4746C11CC43666D9BF7FCD0F8 /* FBClassStrongLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8334D788769CBF113D152842A4931174 /* FBBlockInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3F2AFAEDD05ECA8D94F91C76676D3E /* FBBlockInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B10C53550416520FBBF779F2AFFB895 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8949CF459F1B7E20E9F906D8018E6F5 /* UIKit.framework */; };
-		9313010AE5DC332E3CA3017EE9E44BB2 /* FBObjectiveCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 92739CDAF85F37DB7065161EF50E6251 /* FBObjectiveCObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 552408A08937B50DC9E9013C933CE961 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99133C69E65E08E899EBA19C27969103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8A73BC56992B5407DA3733563D1C08 /* Foundation.framework */; };
-		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2555EE74848B8CC7ECA3399B0266F931 /* QuartzCore.framework */; };
-		99E3008173F04A293F02EAF2F9F58883 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E4317ECC2CB06C92CD8C5A2BE0D58 /* AnimationType.swift */; };
-		9DD00BD79A151A579FCEC5D99F5A4AEE /* FBObjectInStructReference.h in Headers */ = {isa = PBXBuildFile; fileRef = BC10D50A37C67C4B44899579F32BF449 /* FBObjectInStructReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AC8776FA199F172566C07D332F9C50 /* SVProgressHUD-dummy.m */; };
-		A1F89DD6B4B27A794C54D3415822DBE2 /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB755350E4EE2D6BB2C0A8A4DBE54A4 /* UITableView + ViewAnimator.swift */; };
-		B2CB175D3DC7B677A3D656B16AD05628 /* FBBlockStrongRelationDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1331126DABD0C25FF9382FE54FE57939 /* FBBlockStrongRelationDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293178B889185367FF7380D3AC722C4A /* SVIndefiniteAnimatedView.m */; };
-		B5FCA4DC324620C49C3FE922A8F0E7F4 /* FBObjectReference.h in Headers */ = {isa = PBXBuildFile; fileRef = E55766F2A34DD37964F9CF94CDD40E94 /* FBObjectReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B770FDB8AA22F2E81870A26FC3D44CCF /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEBF261B7F6E8981EEC38CA3BFA0BFD /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7997CBF20D90A8AA9FD31264BA0607B /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919EBFA2993AF1D0C96AE21B4A2E1503 /* SwiftSpinner.swift */; };
-		C15340A32401EA5D3C1338AB9FB61037 /* FBStructEncodingParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 427150A9E14448D63C515F9AE850F2FA /* FBStructEncodingParser.mm */; };
-		C48777388547C9CF0DA0F4E8656F9E90 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944A9E03CE45503E1B0CDD603024242 /* SwiftSpinner-dummy.m */; };
-		C7ADFDA9B467ECFFD5D73FBD6341524B /* FBObjectGraphConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D846DE4093CBF5580B19680F7F2879 /* FBObjectGraphConfiguration.m */; };
-		C8088B34D49B56988BEF7C56CF2640F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF9B9CA4673A6CF8CB9F061B052B1F9 /* CoreGraphics.framework */; };
-		CD1102716B84D22BA94C3FE0D88EAAC0 /* Struct.h in Headers */ = {isa = PBXBuildFile; fileRef = A43AE8EA01392C92ED534592D7891204 /* Struct.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85047F1115D48C5FFADDA36B5D033DD1 /* SVRadialGradientLayer.m */; };
-		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8A73BC56992B5407DA3733563D1C08 /* Foundation.framework */; };
-		D6A22E795F23EF35E9D018DC5ACC60B4 /* FBObjectGraphConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE2CB4851EC80F849CEED43FA48C16F /* FBObjectGraphConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7DAA5FB5D36CA02D1C3463BD6D52587 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8949CF459F1B7E20E9F906D8018E6F5 /* UIKit.framework */; };
-		D814CDB6E25BF890490D9E0B46CE7593 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F4A5A058D3E208F553DB0911B3D9F9 /* ViewAnimator-dummy.m */; };
-		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC72DDCC3667840C5567729EB8AF042 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E488FF8881EBB2644A22AA83476C8E /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 435CE0105DE1B076DD43F06EC7A49FD9 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E14FDC29A656C3981024ED2510463516 /* FBBlockStrongLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C181392C9C6A96D9BB50390C033255 /* FBBlockStrongLayout.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		EA69C5E20E03611E3689BAB6488D3805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8A73BC56992B5407DA3733563D1C08 /* Foundation.framework */; };
-		EAFC6CEB595EA175B23609243DB03574 /* FBRetainCycleDetector+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F8DBAA31979DD1670C014DFA8C13BC /* FBRetainCycleDetector+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE730625BFD341542C24868B98924170 /* Pods-NetworkLayerConstruction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D4013FE4BADDDE0DC265F9305E5CAB /* Pods-NetworkLayerConstruction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C36FDB988B694AC6E3ADCD3AF516FE /* SVProgressAnimatedView.m */; };
-		EFBF6A151203BDA29FC594F7D118D6C1 /* BaseType.h in Headers */ = {isa = PBXBuildFile; fileRef = D1527C6A7252C8B8972CDA5BAA25DD9F /* BaseType.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F03300D44439943FE05DF83E832670E2 /* FBClassStrongLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 471288B1A1DD060C9683F8895E38CD14 /* FBClassStrongLayoutHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F19D65507547CE2DC886EC26DC6CEA3F /* FBIvarReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC60167F313B1C2F55177A5BC7A6301 /* FBIvarReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F209E5F73F15EB5744F2E8AAAABF06C5 /* FBObjectiveCNSCFTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8DBE1BA364FD8CD4982175E899087E /* FBObjectiveCNSCFTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4BDAA8AEBCC5CC81BA0A8DC57BB2A63 /* FBIvarReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 0209504162136E92176E2B686FD95BCE /* FBIvarReference.m */; };
-		F8EC3F6D72F0DF9A58326019C0D4870C /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4509CD2F69C1227530B979FEAB430A65 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9D8E2FBA234BC187E7160A2F42A8F74 /* FBClassStrongLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7197807A0D64E109DB3B8AF6891D55F9 /* FBClassStrongLayoutHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01735668E7DC2CD0DF61C6FD91B15BF5 /* Pods-NetworkLayerConstruction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65746775DCEAFBE7680281C4C29E2955 /* Pods-NetworkLayerConstruction-dummy.m */; };
+		070AE87BB0779F2C0A95EC313614C119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
+		081AD2D7A4E79B029748CBBDD242D524 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78003DD0B56E2BB25AE49579FF84940 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B98B35B95F12CE8916849075EC5DB1 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16277F2E3455133F45D6BA9B3E89C891 /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F527DAACAFFE31026A6508A33CB6AAF /* ViewAnimator.swift */; };
+		1A76E4DF2F7D18F483DE30CE4BDCFD92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
+		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB8FCC1D5FB0685AF15CB34576562E37 /* SVProgressHUD.bundle */; };
+		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4742D18FCAFA9B36EDAADE8D550E3D /* SVProgressHUD.m */; };
+		3FD16B601F57FC15298B2C38DD872C2D /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484E99AC5C2AB9D8B25E1FA2E67CB32 /* ViewAnimatorConfig.swift */; };
+		4A668A831CC56A8703854F7F21C093CB /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D3164F15D1CB039985D84198C239F /* UICollectionView + ViewAnimator.swift */; };
+		7654D9CA761CE5A7E9CDE4000D6FE329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
+		7D0B7903FBA88703938682451BD70993 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16612CA80375B61D263FFD157FA0F3C7 /* Animation.swift */; };
+		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF5E3898F3DA585C5C0F07C72755062 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */; };
+		99E3008173F04A293F02EAF2F9F58883 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A0DA68C47316D5704F1462D49D96B /* AnimationType.swift */; };
+		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1229B59E477D46ABC111288F5081EF87 /* SVProgressHUD-dummy.m */; };
+		A1F89DD6B4B27A794C54D3415822DBE2 /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC409868C5E1F673D21E073E2957309 /* UITableView + ViewAnimator.swift */; };
+		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 924160367130A9EE81CB4EE37117B321 /* SVIndefiniteAnimatedView.m */; };
+		B770FDB8AA22F2E81870A26FC3D44CCF /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6024ABB5B72377063D7E04AC066D707 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7997CBF20D90A8AA9FD31264BA0607B /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669DA38CA6A2DFBD300D710FFBEBB71 /* SwiftSpinner.swift */; };
+		C48777388547C9CF0DA0F4E8656F9E90 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2240DE9C46BA58890ACB5A23A78813A /* SwiftSpinner-dummy.m */; };
+		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FCB0631E632C4DD0F86C659407623D /* SVRadialGradientLayer.m */; };
+		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */; };
+		D7DAA5FB5D36CA02D1C3463BD6D52587 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */; };
+		D814CDB6E25BF890490D9E0B46CE7593 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5065C2AE72B0E9208C5B66EE0C564642 /* ViewAnimator-dummy.m */; };
+		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B936F5C324991F1063985E1C2682707 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E43E8660F023240F9FC2900D430F619B /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9479D8765E2D678EA1E64E10B73072FB /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1CEB1A5ADA3181C4F70B59D838BBA9C /* Pods-NetworkLayerConstruction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D4013FE4BADDDE0DC265F9305E5CAB /* Pods-NetworkLayerConstruction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AB63BA54B72185F47ECDD8CCD3ACEA /* SVProgressAnimatedView.m */; };
+		F8EC3F6D72F0DF9A58326019C0D4870C /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5547C220DEA924E312BDE106E1C64497 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42D8B64D7327D98B37E9F3E57176D569 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E647912D2B71D47B98C02E8E0ECA41A;
-			remoteInfo = FBRetainCycleDetector;
-		};
-		5C9793F5C35F872CB8A93C5EEC8F4FFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
-		};
-		B175E568456A52FFE2D6730E18348066 /* PBXContainerItemProxy */ = {
+		0372C798023318027EC1DB5E67213547 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
 			remoteInfo = ViewAnimator;
 		};
-		B4447DE8941FE3B841E160740182AC16 /* PBXContainerItemProxy */ = {
+		0493AF517E46395CE25A8589FB816658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		3F36B55104C41F17AC43E2B2F021A749 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -122,123 +65,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0200D1B710B9144141AE70444A5E9270 /* FBObjectInStructReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectInStructReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.m; sourceTree = "<group>"; };
-		0209504162136E92176E2B686FD95BCE /* FBIvarReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBIvarReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.m; sourceTree = "<group>"; };
-		04F87A07F5A657F3A782C40E65DA4583 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		0944A9E03CE45503E1B0CDD603024242 /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
-		099BD8B6BCC5622A2D22A916DE3D34EC /* FBObjectiveCGraphElement+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBObjectiveCGraphElement+Internal.h"; path = "FBRetainCycleDetector/Graph/Internal/FBObjectiveCGraphElement+Internal.h"; sourceTree = "<group>"; };
 		0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F0455469E492B51403FF9F79DB066CB /* FBRetainCycleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleUtils.h; path = FBRetainCycleDetector/FBRetainCycleUtils.h; sourceTree = "<group>"; };
-		0FB755350E4EE2D6BB2C0A8A4DBE54A4 /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "Sources/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
 		11BDBDE9737602A11372DFD63547322E /* Pods-NetworkLayerConstruction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkLayerConstruction-Info.plist"; sourceTree = "<group>"; };
-		124FE3B9AA508BC4B601714422441B81 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
-		1331126DABD0C25FF9382FE54FE57939 /* FBBlockStrongRelationDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockStrongRelationDetector.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.h; sourceTree = "<group>"; };
-		1D9F7101727B018926F787F7F58B9C3F /* FBNodeEnumerator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBNodeEnumerator.mm; path = FBRetainCycleDetector/Detector/FBNodeEnumerator.mm; sourceTree = "<group>"; };
-		1E29F8FDEFD499EC5470ECCB47E23A0A /* FBBlockStrongLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockStrongLayout.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.h; sourceTree = "<group>"; };
-		20D846DE4093CBF5580B19680F7F2879 /* FBObjectGraphConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectGraphConfiguration.m; path = FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.m; sourceTree = "<group>"; };
-		2555EE74848B8CC7ECA3399B0266F931 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1229B59E477D46ABC111288F5081EF87 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		16612CA80375B61D263FFD157FA0F3C7 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Sources/Protocols/Animation.swift; sourceTree = "<group>"; };
+		17FCB0631E632C4DD0F86C659407623D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		1CC409868C5E1F673D21E073E2957309 /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "Sources/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		1F527DAACAFFE31026A6508A33CB6AAF /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = Sources/ViewAnimator.swift; sourceTree = "<group>"; };
 		256DD9D5C2F15DC2BE9A24A333FF25D5 /* Pods-NetworkLayerConstruction-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkLayerConstruction-acknowledgements.plist"; sourceTree = "<group>"; };
 		2574158289455A8A26C24C23D507DDDD /* Pods-NetworkLayerConstruction-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NetworkLayerConstruction-acknowledgements.markdown"; sourceTree = "<group>"; };
-		27E2E07F6114D75BC769C007F3E02DBC /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
-		28DE67464D861C61B07142549C7F0A13 /* FBObjectiveCObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectiveCObject.m; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.m; sourceTree = "<group>"; };
-		293178B889185367FF7380D3AC722C4A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		2A1194AC019E1C497A170EE4AB725374 /* FBRetainCycleDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBRetainCycleDetector.framework; path = FBRetainCycleDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E3F2AFAEDD05ECA8D94F91C76676D3E /* FBBlockInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockInterface.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockInterface.h; sourceTree = "<group>"; };
-		2E54F64B1B6D1D9492AC78911947A104 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		2FD5F588D41BC19D819F98D46C55D67F /* FBClassStrongLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBClassStrongLayout.mm; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.mm; sourceTree = "<group>"; };
-		30D8C9DB7E7A0836707ACE9B9B22AC3F /* FBRetainCycleDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBRetainCycleDetector-dummy.m"; sourceTree = "<group>"; };
-		30E488FF8881EBB2644A22AA83476C8E /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		30F4A93D23481DEFE00ECC4FE5C68AED /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		33F1E90E4E65479C6BDDA7493004ECED /* Type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Type.h; sourceTree = "<group>"; };
+		27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		30797685ACC06DDE552B68593FF0EE20 /* SwiftSpinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSpinner-Info.plist"; sourceTree = "<group>"; };
+		338ED89495576DCD589E33598FAF0FD0 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		33D9133CFF2B27590E8009623B3F4887 /* SwiftSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.debug.xcconfig; sourceTree = "<group>"; };
+		35FA5C07448DE59C035F590BF1B88EFB /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		391D17DE81F044CF1F402BB4B4C179F9 /* Pods_NetworkLayerConstruction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NetworkLayerConstruction.framework; path = "Pods-NetworkLayerConstruction.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AAAE97C0C113370562F3152F25AA33B /* FBRetainCycleDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBRetainCycleDetector-prefix.pch"; sourceTree = "<group>"; };
-		3B5EB2ABFB56B39A308290DCE4F2BA83 /* FBRetainCycleDetector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBRetainCycleDetector.mm; path = FBRetainCycleDetector/Detector/FBRetainCycleDetector.mm; sourceTree = "<group>"; };
-		3C5F7711079E8E9CCF09B53795535D92 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		3C67F98817E63E8F67A0B2B0EB1939E2 /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "Sources/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
-		427150A9E14448D63C515F9AE850F2FA /* FBStructEncodingParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStructEncodingParser.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.mm; sourceTree = "<group>"; };
-		435CE0105DE1B076DD43F06EC7A49FD9 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		4509CD2F69C1227530B979FEAB430A65 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = Sources/SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
-		4547CE64A2DE3287270371FBB9A6920A /* FBAssociationManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBAssociationManager+Internal.h"; path = "FBRetainCycleDetector/Associations/Internal/FBAssociationManager+Internal.h"; sourceTree = "<group>"; };
-		471288B1A1DD060C9683F8895E38CD14 /* FBClassStrongLayoutHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBClassStrongLayoutHelpers.m; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.m; sourceTree = "<group>"; };
-		49F6969B5E468686F4C8CB148BBDCEF8 /* FBRetainCycleDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBRetainCycleDetector.release.xcconfig; sourceTree = "<group>"; };
-		51AC8776FA199F172566C07D332F9C50 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		552408A08937B50DC9E9013C933CE961 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		5D6A34E1A68755221AC0F4AEB6BE6EF7 /* FBBlockStrongRelationDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBBlockStrongRelationDetector.m; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.m; sourceTree = "<group>"; };
-		5EA3C49FCC1EEA806B1739B5EB976B50 /* SwiftSpinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSpinner-Info.plist"; sourceTree = "<group>"; };
-		5ED3414F7ED6954873A8DA7B211D670A /* FBRetainCycleDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBRetainCycleDetector.modulemap; sourceTree = "<group>"; };
-		60119EF5B0A6F76F3AAA1886027EED5F /* ViewAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.release.xcconfig; sourceTree = "<group>"; };
+		4D4F68E53DBC4DC9471B08A1F54E5410 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		5065C2AE72B0E9208C5B66EE0C564642 /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
+		5484E99AC5C2AB9D8B25E1FA2E67CB32 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = Sources/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
+		5547C220DEA924E312BDE106E1C64497 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = Sources/SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		5FC99C95B66954D37AD48F039D547370 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		60AB63BA54B72185F47ECDD8CCD3ACEA /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		65746775DCEAFBE7680281C4C29E2955 /* Pods-NetworkLayerConstruction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NetworkLayerConstruction-dummy.m"; sourceTree = "<group>"; };
-		665725605B842E4B77AD54AADD74DA3A /* FBStructEncodingParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStructEncodingParser.h; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.h; sourceTree = "<group>"; };
-		69C327D4195561521E6CDE74C9C60B09 /* FBAssociationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAssociationManager.h; path = FBRetainCycleDetector/Associations/FBAssociationManager.h; sourceTree = "<group>"; };
-		6BC2B5094716C5FF2A30B0278E5F8766 /* FBObjectiveCNSCFTimer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBObjectiveCNSCFTimer.mm; path = FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.mm; sourceTree = "<group>"; };
-		6DCD184DFAB2963D54CBDE02A042B444 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		7197807A0D64E109DB3B8AF6891D55F9 /* FBClassStrongLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayoutHelpers.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.h; sourceTree = "<group>"; };
-		71D6F13243B3AC692A006BB1FAB29B24 /* FBRetainCycleUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBRetainCycleUtils.m; path = FBRetainCycleDetector/FBRetainCycleUtils.m; sourceTree = "<group>"; };
-		729092AE2AA162FF59F507A34EFF23B9 /* FBStandardGraphEdgeFilters.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStandardGraphEdgeFilters.mm; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.mm; sourceTree = "<group>"; };
-		79123CE72401C287D9E7101424A03CFF /* FBRetainCycleDetector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBRetainCycleDetector-Info.plist"; sourceTree = "<group>"; };
-		79D8D9BEBB7C845D3B88954991A3430D /* SwiftSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.release.xcconfig; sourceTree = "<group>"; };
-		7D1C5CDBCDC7FD82F99B95D25A1D2F51 /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
+		65F68308B4FC2C8D22C4B008478A9F43 /* ViewAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		6669DA38CA6A2DFBD300D710FFBEBB71 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = Sources/SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		69D23C0A499CFEB219020350AC40F66B /* ViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewAnimator-Info.plist"; sourceTree = "<group>"; };
 		7D74B1E5E2EC9A9D96484E533E1AA868 /* Pods-NetworkLayerConstruction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NetworkLayerConstruction.modulemap"; sourceTree = "<group>"; };
-		7EC60167F313B1C2F55177A5BC7A6301 /* FBIvarReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBIvarReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.h; sourceTree = "<group>"; };
-		7F38A3FCB44D78D2462EBA52BB601D9B /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
-		824184154B6F9EF58663CC3C586A3981 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = Sources/ViewAnimator.swift; sourceTree = "<group>"; };
-		85047F1115D48C5FFADDA36B5D033DD1 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		86C181392C9C6A96D9BB50390C033255 /* FBBlockStrongLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBBlockStrongLayout.m; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.m; sourceTree = "<group>"; };
-		8CA52F14B312A241C9CC81AB98AE1683 /* FBNodeEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNodeEnumerator.h; path = FBRetainCycleDetector/Detector/FBNodeEnumerator.h; sourceTree = "<group>"; };
-		919EBFA2993AF1D0C96AE21B4A2E1503 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = Sources/SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
-		92739CDAF85F37DB7065161EF50E6251 /* FBObjectiveCObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCObject.h; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.h; sourceTree = "<group>"; };
+		824D3164F15D1CB039985D84198C239F /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "Sources/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B936F5C324991F1063985E1C2682707 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		8DF5E3898F3DA585C5C0F07C72755062 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9158E48B8FBF027A516016C8550C14E2 /* ViewAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.release.xcconfig; sourceTree = "<group>"; };
+		924160367130A9EE81CB4EE37117B321 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9479D8765E2D678EA1E64E10B73072FB /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A43AE8EA01392C92ED534592D7891204 /* Struct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.h; sourceTree = "<group>"; };
-		A4F8DBAA31979DD1670C014DFA8C13BC /* FBRetainCycleDetector+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBRetainCycleDetector+Internal.h"; path = "FBRetainCycleDetector/Detector/FBRetainCycleDetector+Internal.h"; sourceTree = "<group>"; };
-		A5C36FDB988B694AC6E3ADCD3AF516FE /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		A57E224B85EF11400049823AB0D4294C /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
 		A66A45032311EC5AA0E80638BE403215 /* Pods-NetworkLayerConstruction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkLayerConstruction.release.xcconfig"; sourceTree = "<group>"; };
-		A74E4317ECC2CB06C92CD8C5A2BE0D58 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = Sources/Models/AnimationType.swift; sourceTree = "<group>"; };
 		A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8394BF828BB02A00D301E5C637DDBAD /* SwiftSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.debug.xcconfig; sourceTree = "<group>"; };
-		ABE2CB4851EC80F849CEED43FA48C16F /* FBObjectGraphConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectGraphConfiguration.h; path = FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.h; sourceTree = "<group>"; };
-		B03A78CC989CC6661AEFD88A4C03EFEB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		B9A12EB63D03D8CDF600CB22D406FD37 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
-		BBF9B9CA4673A6CF8CB9F061B052B1F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		BC10D50A37C67C4B44899579F32BF449 /* FBObjectInStructReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectInStructReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.h; sourceTree = "<group>"; };
-		BE5074BD6C5DA9660367290C5A2DD853 /* FBObjectiveCGraphElement.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBObjectiveCGraphElement.mm; path = FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.mm; sourceTree = "<group>"; };
-		C08F28CCA41B24D58742EB73C2764DB9 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Sources/Protocols/Animation.swift; sourceTree = "<group>"; };
-		C62827D8C4E62D431C478670CF5A0C80 /* FBRetainCycleDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBRetainCycleDetector.debug.xcconfig; sourceTree = "<group>"; };
-		C7FE3D80EEECFC15051093C3AAD097A9 /* FBRetainCycleDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBRetainCycleDetector-umbrella.h"; sourceTree = "<group>"; };
-		CB8124DAFEAC6548008FA1F1D03D5941 /* ViewAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.debug.xcconfig; sourceTree = "<group>"; };
-		CC73895F71DD6BB9891E47947F2A2F40 /* FBObjectiveCGraphElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCGraphElement.h; path = FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.h; sourceTree = "<group>"; };
-		CD4DE81AACA3F2B84DA95E84F62D54DB /* FBAssociationManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAssociationManager.mm; path = FBRetainCycleDetector/Associations/FBAssociationManager.mm; sourceTree = "<group>"; };
-		CD8DBE1BA364FD8CD4982175E899087E /* FBObjectiveCNSCFTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCNSCFTimer.h; path = FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.h; sourceTree = "<group>"; };
-		CDC72DDCC3667840C5567729EB8AF042 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		CF1078F5D76013F5681A5DA55BAF85F8 /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
-		D1527C6A7252C8B8972CDA5BAA25DD9F /* BaseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseType.h; path = FBRetainCycleDetector/Layout/Classes/Parser/BaseType.h; sourceTree = "<group>"; };
-		D20E709C09253D863FF64D8C07702BBC /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		D732BB8B1198378AB76EC2058B477C15 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = Sources/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
-		DC53CD203B46F444238CBC65D82B0A42 /* FBObjectiveCBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCBlock.h; path = FBRetainCycleDetector/Graph/FBObjectiveCBlock.h; sourceTree = "<group>"; };
-		DCEBF261B7F6E8981EEC38CA3BFA0BFD /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
-		DD257DC23FC72B10C6F810A5723BE5AA /* FBObjectiveCBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectiveCBlock.m; path = FBRetainCycleDetector/Graph/FBObjectiveCBlock.m; sourceTree = "<group>"; };
-		DD6A55D3FD3D12232FC1D2541947423C /* FBStandardGraphEdgeFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStandardGraphEdgeFilters.h; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.h; sourceTree = "<group>"; };
-		E0DF9B51172A1249285390FC0B30BFFD /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		E3F4A5A058D3E208F553DB0911B3D9F9 /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
-		E55766F2A34DD37964F9CF94CDD40E94 /* FBObjectReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectReference.h; sourceTree = "<group>"; };
-		E8949CF459F1B7E20E9F906D8018E6F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E9446A9838DE5F9339CB67128B875ED8 /* FBRetainCycleDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleDetector.h; path = FBRetainCycleDetector/Detector/FBRetainCycleDetector.h; sourceTree = "<group>"; };
+		B28181309B794E4F7641C90CE5D56E1A /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		BDB9D3C41C7C8BB86212A830BEBCC9C9 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		C6024ABB5B72377063D7E04AC066D707 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		D78003DD0B56E2BB25AE49579FF84940 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		DE16390476C0F3BCB10B5E52FE810B44 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		DF1A0DA68C47316D5704F1462D49D96B /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = Sources/Models/AnimationType.swift; sourceTree = "<group>"; };
+		DF7F38CBDCFE33C99BD6B5F9C754041E /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
+		E2240DE9C46BA58890ACB5A23A78813A /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		E43E8660F023240F9FC2900D430F619B /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		E44427912BFD6F6D5AE0A3BAE889AA24 /* SwiftSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.release.xcconfig; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA96025CA0BBAE02F5E356C46E04F5F3 /* ViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewAnimator-Info.plist"; sourceTree = "<group>"; };
-		EB5EF2E5F7C10C11D1850B9C64B08A49 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
-		F0AB04E4746C11CC43666D9BF7FCD0F8 /* FBClassStrongLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayout.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.h; sourceTree = "<group>"; };
+		EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F3D4013FE4BADDDE0DC265F9305E5CAB /* Pods-NetworkLayerConstruction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetworkLayerConstruction-umbrella.h"; sourceTree = "<group>"; };
+		F7B98B35B95F12CE8916849075EC5DB1 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		FA35ED0BE7A85172EEF4CF15A4275ED9 /* Pods-NetworkLayerConstruction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkLayerConstruction.debug.xcconfig"; sourceTree = "<group>"; };
 		FA881ACD9B57B7AC53A1BF01FD402FB3 /* Pods-NetworkLayerConstruction-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NetworkLayerConstruction-frameworks.sh"; sourceTree = "<group>"; };
-		FCC7A68FB4F41A6ECB17E327E2FE9FC0 /* Struct.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Struct.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.mm; sourceTree = "<group>"; };
-		FD8A73BC56992B5407DA3733563D1C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB8FCC1D5FB0685AF15CB34576562E37 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FC4742D18FCAFA9B36EDAADE8D550E3D /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AF46B86425B75C8996B170FA65C5996 /* Frameworks */ = {
+		37692AFBA770A46669FB3E5529C69F01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99133C69E65E08E899EBA19C27969103 /* Foundation.framework in Frameworks */,
+				070AE87BB0779F2C0A95EC313614C119 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,19 +157,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F157ED567397AC6353FB263653B685C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8088B34D49B56988BEF7C56CF2640F7 /* CoreGraphics.framework in Frameworks */,
-				EA69C5E20E03611E3689BAB6488D3805 /* Foundation.framework in Frameworks */,
-				8B10C53550416520FBBF779F2AFFB895 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B705C9614E18F354920D6F6D4D90B3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1443F988B23846337664DB6B98C14D99 /* Pods-NetworkLayerConstruction */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,181 +185,88 @@
 			path = "Target Support Files/Pods-NetworkLayerConstruction";
 			sourceTree = "<group>";
 		};
-		1925E06F911E5989B943D6B37F730E23 /* Support Files */ = {
+		2A30015C57EA5FB2FDCBB3C1D59EFF5B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6DCD184DFAB2963D54CBDE02A042B444 /* SVProgressHUD.modulemap */,
-				51AC8776FA199F172566C07D332F9C50 /* SVProgressHUD-dummy.m */,
-				04F87A07F5A657F3A782C40E65DA4583 /* SVProgressHUD-Info.plist */,
-				D20E709C09253D863FF64D8C07702BBC /* SVProgressHUD-prefix.pch */,
-				30E488FF8881EBB2644A22AA83476C8E /* SVProgressHUD-umbrella.h */,
-				30F4A93D23481DEFE00ECC4FE5C68AED /* SVProgressHUD.debug.xcconfig */,
-				E0DF9B51172A1249285390FC0B30BFFD /* SVProgressHUD.release.xcconfig */,
+				A57E224B85EF11400049823AB0D4294C /* ViewAnimator.modulemap */,
+				5065C2AE72B0E9208C5B66EE0C564642 /* ViewAnimator-dummy.m */,
+				69D23C0A499CFEB219020350AC40F66B /* ViewAnimator-Info.plist */,
+				DF7F38CBDCFE33C99BD6B5F9C754041E /* ViewAnimator-prefix.pch */,
+				D78003DD0B56E2BB25AE49579FF84940 /* ViewAnimator-umbrella.h */,
+				65F68308B4FC2C8D22C4B008478A9F43 /* ViewAnimator.debug.xcconfig */,
+				9158E48B8FBF027A516016C8550C14E2 /* ViewAnimator.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			path = "../Target Support Files/ViewAnimator";
 			sourceTree = "<group>";
 		};
-		37996FEE6CF9A6F40D98D62856F01FFF /* SVProgressHUD */ = {
+		45D86F086A9D681FAF10F3513B9BAAE3 /* SwiftSpinner */ = {
 			isa = PBXGroup;
 			children = (
-				552408A08937B50DC9E9013C933CE961 /* SVIndefiniteAnimatedView.h */,
-				293178B889185367FF7380D3AC722C4A /* SVIndefiniteAnimatedView.m */,
-				435CE0105DE1B076DD43F06EC7A49FD9 /* SVProgressAnimatedView.h */,
-				A5C36FDB988B694AC6E3ADCD3AF516FE /* SVProgressAnimatedView.m */,
-				3C5F7711079E8E9CCF09B53795535D92 /* SVProgressHUD.h */,
-				2E54F64B1B6D1D9492AC78911947A104 /* SVProgressHUD.m */,
-				CDC72DDCC3667840C5567729EB8AF042 /* SVRadialGradientLayer.h */,
-				85047F1115D48C5FFADDA36B5D033DD1 /* SVRadialGradientLayer.m */,
-				A05D96AE6F0750E5C62136B2B1A7F664 /* Resources */,
-				1925E06F911E5989B943D6B37F730E23 /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		4C7CD8D684C553FC5DF85CD9656B7CFE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5ED3414F7ED6954873A8DA7B211D670A /* FBRetainCycleDetector.modulemap */,
-				30D8C9DB7E7A0836707ACE9B9B22AC3F /* FBRetainCycleDetector-dummy.m */,
-				79123CE72401C287D9E7101424A03CFF /* FBRetainCycleDetector-Info.plist */,
-				3AAAE97C0C113370562F3152F25AA33B /* FBRetainCycleDetector-prefix.pch */,
-				C7FE3D80EEECFC15051093C3AAD097A9 /* FBRetainCycleDetector-umbrella.h */,
-				C62827D8C4E62D431C478670CF5A0C80 /* FBRetainCycleDetector.debug.xcconfig */,
-				49F6969B5E468686F4C8CB148BBDCEF8 /* FBRetainCycleDetector.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBRetainCycleDetector";
-			sourceTree = "<group>";
-		};
-		56B7FCFCA9D62FBC6F680C8C36A07284 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5CE30E0B3ABD266E0FA9FE8F7065849C /* FBRetainCycleDetector */,
-				37996FEE6CF9A6F40D98D62856F01FFF /* SVProgressHUD */,
-				64054535004AB150CB8C52F22DD9DF18 /* SwiftSpinner */,
-				A9FD67FFEB23A3E08175AE732C7C7873 /* ViewAnimator */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5CE30E0B3ABD266E0FA9FE8F7065849C /* FBRetainCycleDetector */ = {
-			isa = PBXGroup;
-			children = (
-				D1527C6A7252C8B8972CDA5BAA25DD9F /* BaseType.h */,
-				69C327D4195561521E6CDE74C9C60B09 /* FBAssociationManager.h */,
-				CD4DE81AACA3F2B84DA95E84F62D54DB /* FBAssociationManager.mm */,
-				4547CE64A2DE3287270371FBB9A6920A /* FBAssociationManager+Internal.h */,
-				2E3F2AFAEDD05ECA8D94F91C76676D3E /* FBBlockInterface.h */,
-				1E29F8FDEFD499EC5470ECCB47E23A0A /* FBBlockStrongLayout.h */,
-				86C181392C9C6A96D9BB50390C033255 /* FBBlockStrongLayout.m */,
-				1331126DABD0C25FF9382FE54FE57939 /* FBBlockStrongRelationDetector.h */,
-				5D6A34E1A68755221AC0F4AEB6BE6EF7 /* FBBlockStrongRelationDetector.m */,
-				F0AB04E4746C11CC43666D9BF7FCD0F8 /* FBClassStrongLayout.h */,
-				2FD5F588D41BC19D819F98D46C55D67F /* FBClassStrongLayout.mm */,
-				7197807A0D64E109DB3B8AF6891D55F9 /* FBClassStrongLayoutHelpers.h */,
-				471288B1A1DD060C9683F8895E38CD14 /* FBClassStrongLayoutHelpers.m */,
-				7EC60167F313B1C2F55177A5BC7A6301 /* FBIvarReference.h */,
-				0209504162136E92176E2B686FD95BCE /* FBIvarReference.m */,
-				8CA52F14B312A241C9CC81AB98AE1683 /* FBNodeEnumerator.h */,
-				1D9F7101727B018926F787F7F58B9C3F /* FBNodeEnumerator.mm */,
-				ABE2CB4851EC80F849CEED43FA48C16F /* FBObjectGraphConfiguration.h */,
-				20D846DE4093CBF5580B19680F7F2879 /* FBObjectGraphConfiguration.m */,
-				BC10D50A37C67C4B44899579F32BF449 /* FBObjectInStructReference.h */,
-				0200D1B710B9144141AE70444A5E9270 /* FBObjectInStructReference.m */,
-				DC53CD203B46F444238CBC65D82B0A42 /* FBObjectiveCBlock.h */,
-				DD257DC23FC72B10C6F810A5723BE5AA /* FBObjectiveCBlock.m */,
-				CC73895F71DD6BB9891E47947F2A2F40 /* FBObjectiveCGraphElement.h */,
-				BE5074BD6C5DA9660367290C5A2DD853 /* FBObjectiveCGraphElement.mm */,
-				099BD8B6BCC5622A2D22A916DE3D34EC /* FBObjectiveCGraphElement+Internal.h */,
-				CD8DBE1BA364FD8CD4982175E899087E /* FBObjectiveCNSCFTimer.h */,
-				6BC2B5094716C5FF2A30B0278E5F8766 /* FBObjectiveCNSCFTimer.mm */,
-				92739CDAF85F37DB7065161EF50E6251 /* FBObjectiveCObject.h */,
-				28DE67464D861C61B07142549C7F0A13 /* FBObjectiveCObject.m */,
-				E55766F2A34DD37964F9CF94CDD40E94 /* FBObjectReference.h */,
-				E9446A9838DE5F9339CB67128B875ED8 /* FBRetainCycleDetector.h */,
-				3B5EB2ABFB56B39A308290DCE4F2BA83 /* FBRetainCycleDetector.mm */,
-				A4F8DBAA31979DD1670C014DFA8C13BC /* FBRetainCycleDetector+Internal.h */,
-				0F0455469E492B51403FF9F79DB066CB /* FBRetainCycleUtils.h */,
-				71D6F13243B3AC692A006BB1FAB29B24 /* FBRetainCycleUtils.m */,
-				DD6A55D3FD3D12232FC1D2541947423C /* FBStandardGraphEdgeFilters.h */,
-				729092AE2AA162FF59F507A34EFF23B9 /* FBStandardGraphEdgeFilters.mm */,
-				665725605B842E4B77AD54AADD74DA3A /* FBStructEncodingParser.h */,
-				427150A9E14448D63C515F9AE850F2FA /* FBStructEncodingParser.mm */,
-				27E2E07F6114D75BC769C007F3E02DBC /* fishhook.c */,
-				7F38A3FCB44D78D2462EBA52BB601D9B /* fishhook.h */,
-				A43AE8EA01392C92ED534592D7891204 /* Struct.h */,
-				FCC7A68FB4F41A6ECB17E327E2FE9FC0 /* Struct.mm */,
-				33F1E90E4E65479C6BDDA7493004ECED /* Type.h */,
-				4C7CD8D684C553FC5DF85CD9656B7CFE /* Support Files */,
-			);
-			name = FBRetainCycleDetector;
-			path = FBRetainCycleDetector;
-			sourceTree = "<group>";
-		};
-		64054535004AB150CB8C52F22DD9DF18 /* SwiftSpinner */ = {
-			isa = PBXGroup;
-			children = (
-				4509CD2F69C1227530B979FEAB430A65 /* SwiftSpinner.h */,
-				919EBFA2993AF1D0C96AE21B4A2E1503 /* SwiftSpinner.swift */,
-				A555900B1C49125AC0252EB197044C41 /* Support Files */,
+				5547C220DEA924E312BDE106E1C64497 /* SwiftSpinner.h */,
+				6669DA38CA6A2DFBD300D710FFBEBB71 /* SwiftSpinner.swift */,
+				5E21A7552D5378DBA41832C494D7ED83 /* Support Files */,
 			);
 			name = SwiftSpinner;
 			path = SwiftSpinner;
 			sourceTree = "<group>";
 		};
-		A05D96AE6F0750E5C62136B2B1A7F664 /* Resources */ = {
+		5E21A7552D5378DBA41832C494D7ED83 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B03A78CC989CC6661AEFD88A4C03EFEB /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A555900B1C49125AC0252EB197044C41 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EB5EF2E5F7C10C11D1850B9C64B08A49 /* SwiftSpinner.modulemap */,
-				0944A9E03CE45503E1B0CDD603024242 /* SwiftSpinner-dummy.m */,
-				5EA3C49FCC1EEA806B1739B5EB976B50 /* SwiftSpinner-Info.plist */,
-				B9A12EB63D03D8CDF600CB22D406FD37 /* SwiftSpinner-prefix.pch */,
-				DCEBF261B7F6E8981EEC38CA3BFA0BFD /* SwiftSpinner-umbrella.h */,
-				A8394BF828BB02A00D301E5C637DDBAD /* SwiftSpinner.debug.xcconfig */,
-				79D8D9BEBB7C845D3B88954991A3430D /* SwiftSpinner.release.xcconfig */,
+				338ED89495576DCD589E33598FAF0FD0 /* SwiftSpinner.modulemap */,
+				E2240DE9C46BA58890ACB5A23A78813A /* SwiftSpinner-dummy.m */,
+				30797685ACC06DDE552B68593FF0EE20 /* SwiftSpinner-Info.plist */,
+				4D4F68E53DBC4DC9471B08A1F54E5410 /* SwiftSpinner-prefix.pch */,
+				C6024ABB5B72377063D7E04AC066D707 /* SwiftSpinner-umbrella.h */,
+				33D9133CFF2B27590E8009623B3F4887 /* SwiftSpinner.debug.xcconfig */,
+				E44427912BFD6F6D5AE0A3BAE889AA24 /* SwiftSpinner.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftSpinner";
 			sourceTree = "<group>";
 		};
-		A9FD67FFEB23A3E08175AE732C7C7873 /* ViewAnimator */ = {
+		8CFEFCAFBA9B69E77F1847F7C2AC3972 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				C08F28CCA41B24D58742EB73C2764DB9 /* Animation.swift */,
-				A74E4317ECC2CB06C92CD8C5A2BE0D58 /* AnimationType.swift */,
-				3C67F98817E63E8F67A0B2B0EB1939E2 /* UICollectionView + ViewAnimator.swift */,
-				0FB755350E4EE2D6BB2C0A8A4DBE54A4 /* UITableView + ViewAnimator.swift */,
-				824184154B6F9EF58663CC3C586A3981 /* ViewAnimator.swift */,
-				D732BB8B1198378AB76EC2058B477C15 /* ViewAnimatorConfig.swift */,
-				AC311506A801D4B496CDEB82F7AB034A /* Support Files */,
+				8DF5E3898F3DA585C5C0F07C72755062 /* SVIndefiniteAnimatedView.h */,
+				924160367130A9EE81CB4EE37117B321 /* SVIndefiniteAnimatedView.m */,
+				9479D8765E2D678EA1E64E10B73072FB /* SVProgressAnimatedView.h */,
+				60AB63BA54B72185F47ECDD8CCD3ACEA /* SVProgressAnimatedView.m */,
+				F7B98B35B95F12CE8916849075EC5DB1 /* SVProgressHUD.h */,
+				FC4742D18FCAFA9B36EDAADE8D550E3D /* SVProgressHUD.m */,
+				8B936F5C324991F1063985E1C2682707 /* SVRadialGradientLayer.h */,
+				17FCB0631E632C4DD0F86C659407623D /* SVRadialGradientLayer.m */,
+				B458BDA94E31683E75DF66A5B9D91709 /* Resources */,
+				CB809484B2DD369B3D2A9EFBF53FF45B /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		973AB1CCF39784F0AF7DBE2583BDFBE7 /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				16612CA80375B61D263FFD157FA0F3C7 /* Animation.swift */,
+				DF1A0DA68C47316D5704F1462D49D96B /* AnimationType.swift */,
+				824D3164F15D1CB039985D84198C239F /* UICollectionView + ViewAnimator.swift */,
+				1CC409868C5E1F673D21E073E2957309 /* UITableView + ViewAnimator.swift */,
+				1F527DAACAFFE31026A6508A33CB6AAF /* ViewAnimator.swift */,
+				5484E99AC5C2AB9D8B25E1FA2E67CB32 /* ViewAnimatorConfig.swift */,
+				2A30015C57EA5FB2FDCBB3C1D59EFF5B /* Support Files */,
 			);
 			name = ViewAnimator;
 			path = ViewAnimator;
 			sourceTree = "<group>";
 		};
-		AC311506A801D4B496CDEB82F7AB034A /* Support Files */ = {
+		A7E494EE437EC549A90EFCC23FEBCB69 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7D1C5CDBCDC7FD82F99B95D25A1D2F51 /* ViewAnimator.modulemap */,
-				E3F4A5A058D3E208F553DB0911B3D9F9 /* ViewAnimator-dummy.m */,
-				EA96025CA0BBAE02F5E356C46E04F5F3 /* ViewAnimator-Info.plist */,
-				CF1078F5D76013F5681A5DA55BAF85F8 /* ViewAnimator-prefix.pch */,
-				124FE3B9AA508BC4B601714422441B81 /* ViewAnimator-umbrella.h */,
-				CB8124DAFEAC6548008FA1F1D03D5941 /* ViewAnimator.debug.xcconfig */,
-				60119EF5B0A6F76F3AAA1886027EED5F /* ViewAnimator.release.xcconfig */,
+				8CFEFCAFBA9B69E77F1847F7C2AC3972 /* SVProgressHUD */,
+				45D86F086A9D681FAF10F3513B9BAAE3 /* SwiftSpinner */,
+				973AB1CCF39784F0AF7DBE2583BDFBE7 /* ViewAnimator */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ViewAnimator";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B173F44BAF7D935502B3DE20B268E780 /* Targets Support Files */ = {
@@ -483,40 +277,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		B2B705C9614E18F354920D6F6D4D90B3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C6DDDB148EEB152C768A7A12E2939525 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6DDDB148EEB152C768A7A12E2939525 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BBF9B9CA4673A6CF8CB9F061B052B1F9 /* CoreGraphics.framework */,
-				FD8A73BC56992B5407DA3733563D1C08 /* Foundation.framework */,
-				2555EE74848B8CC7ECA3399B0266F931 /* QuartzCore.framework */,
-				E8949CF459F1B7E20E9F906D8018E6F5 /* UIKit.framework */,
+				8993AD9AA5E8CDA41747C77B6EAF5A4C /* Foundation.framework */,
+				27273776485A1763F1F4AC935D5AE224 /* QuartzCore.framework */,
+				EE53C190EE862155746F819D2BD28B00 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		B458BDA94E31683E75DF66A5B9D91709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB8FCC1D5FB0685AF15CB34576562E37 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CB809484B2DD369B3D2A9EFBF53FF45B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FC99C95B66954D37AD48F039D547370 /* SVProgressHUD.modulemap */,
+				1229B59E477D46ABC111288F5081EF87 /* SVProgressHUD-dummy.m */,
+				BDB9D3C41C7C8BB86212A830BEBCC9C9 /* SVProgressHUD-Info.plist */,
+				DE16390476C0F3BCB10B5E52FE810B44 /* SVProgressHUD-prefix.pch */,
+				E43E8660F023240F9FC2900D430F619B /* SVProgressHUD-umbrella.h */,
+				35FA5C07448DE59C035F590BF1B88EFB /* SVProgressHUD.debug.xcconfig */,
+				B28181309B794E4F7641C90CE5D56E1A /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				56B7FCFCA9D62FBC6F680C8C36A07284 /* Pods */,
-				F13EFAB1183574E4B090C5390A65DFA2 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				A7E494EE437EC549A90EFCC23FEBCB69 /* Pods */,
+				F3E4D4A5E3271EA840AEA1CA0ED1B236 /* Products */,
 				B173F44BAF7D935502B3DE20B268E780 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F13EFAB1183574E4B090C5390A65DFA2 /* Products */ = {
+		F3E4D4A5E3271EA840AEA1CA0ED1B236 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A1194AC019E1C497A170EE4AB725374 /* FBRetainCycleDetector.framework */,
 				391D17DE81F044CF1F402BB4B4C179F9 /* Pods_NetworkLayerConstruction.framework */,
 				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
 				0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner.framework */,
@@ -528,48 +335,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C01B980C844DFA0D093BF160221211B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE730625BFD341542C24868B98924170 /* Pods-NetworkLayerConstruction-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		216C6213F8893D453DDC712257B59AF2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFBF6A151203BDA29FC594F7D118D6C1 /* BaseType.h in Headers */,
-				1AECCF6B5E3434FE0C303E8EDE37DE6E /* FBAssociationManager+Internal.h in Headers */,
-				4CDF1AF4556A90CA91E98B21160EBD0A /* FBAssociationManager.h in Headers */,
-				8334D788769CBF113D152842A4931174 /* FBBlockInterface.h in Headers */,
-				03AEA342BF8482A6067576E9461B2B55 /* FBBlockStrongLayout.h in Headers */,
-				B2CB175D3DC7B677A3D656B16AD05628 /* FBBlockStrongRelationDetector.h in Headers */,
-				7FD706309F83F6E4F9BE1EEE7382F1B3 /* FBClassStrongLayout.h in Headers */,
-				F9D8E2FBA234BC187E7160A2F42A8F74 /* FBClassStrongLayoutHelpers.h in Headers */,
-				F19D65507547CE2DC886EC26DC6CEA3F /* FBIvarReference.h in Headers */,
-				7C58D67FA200741C43D009E0DB4BF6B3 /* FBNodeEnumerator.h in Headers */,
-				D6A22E795F23EF35E9D018DC5ACC60B4 /* FBObjectGraphConfiguration.h in Headers */,
-				9DD00BD79A151A579FCEC5D99F5A4AEE /* FBObjectInStructReference.h in Headers */,
-				76839FCC744576AAA29DF81544EBED6A /* FBObjectiveCBlock.h in Headers */,
-				2215270E543BAE806B6CB19DCC8CE8A9 /* FBObjectiveCGraphElement+Internal.h in Headers */,
-				30799A4439BAE1320EE857AA720FC608 /* FBObjectiveCGraphElement.h in Headers */,
-				F209E5F73F15EB5744F2E8AAAABF06C5 /* FBObjectiveCNSCFTimer.h in Headers */,
-				9313010AE5DC332E3CA3017EE9E44BB2 /* FBObjectiveCObject.h in Headers */,
-				B5FCA4DC324620C49C3FE922A8F0E7F4 /* FBObjectReference.h in Headers */,
-				EAFC6CEB595EA175B23609243DB03574 /* FBRetainCycleDetector+Internal.h in Headers */,
-				05862B810862D38EE6F6D22A73A3C586 /* FBRetainCycleDetector-umbrella.h in Headers */,
-				7FC5F9908B0E7594979CDAA2105A363C /* FBRetainCycleDetector.h in Headers */,
-				1AD97D28FDE4AC7A0A28109410A56EBC /* FBRetainCycleUtils.h in Headers */,
-				12037CF1725DCE156F30F0F2F1B0DC99 /* FBStandardGraphEdgeFilters.h in Headers */,
-				2C7EAB29618D45F847ADEF4D9DE1E059 /* FBStructEncodingParser.h in Headers */,
-				0E5039728F2E0E22EF738CC6295AD985 /* fishhook.h in Headers */,
-				CD1102716B84D22BA94C3FE0D88EAAC0 /* Struct.h in Headers */,
-				180B0A2700311118F337952F0C61BB89 /* Type.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C044C67F11489EFA3459B8399E7061C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,6 +355,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B7E72C24B8A6B9B111E6EAD03D3B2088 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CEB1A5ADA3181C4F70B59D838BBA9C /* Pods-NetworkLayerConstruction-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97A3A4B30AE441A7F7961E05CA3993C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -602,24 +375,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E647912D2B71D47B98C02E8E0ECA41A /* FBRetainCycleDetector */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF19280816486D6A02354AA7AF606E9 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector" */;
-			buildPhases = (
-				216C6213F8893D453DDC712257B59AF2 /* Headers */,
-				4705C9C6DA4488C33812752FF23E976C /* Sources */,
-				F157ED567397AC6353FB263653B685C8 /* Frameworks */,
-				72BFABB31CA0F9196ADE9DC56E8A64B5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBRetainCycleDetector;
-			productName = FBRetainCycleDetector;
-			productReference = 2A1194AC019E1C497A170EE4AB725374 /* FBRetainCycleDetector.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
@@ -640,20 +395,19 @@
 		};
 		2CF35708FB4F8DCA85F300A9C0B1A1BE /* Pods-NetworkLayerConstruction */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C309E4C3893D14082C89F41216BCB24C /* Build configuration list for PBXNativeTarget "Pods-NetworkLayerConstruction" */;
+			buildConfigurationList = 7D523EB99A138733C9E0CB03D1491AB7 /* Build configuration list for PBXNativeTarget "Pods-NetworkLayerConstruction" */;
 			buildPhases = (
-				0C01B980C844DFA0D093BF160221211B /* Headers */,
-				7A079F3F57D49EB6FF8AF6060B285FC5 /* Sources */,
-				0AF46B86425B75C8996B170FA65C5996 /* Frameworks */,
-				AA121746967B7A6368EDD833EC8B9FA7 /* Resources */,
+				B7E72C24B8A6B9B111E6EAD03D3B2088 /* Headers */,
+				AB64BC6EFCBEDFAE42EFA6C75972F976 /* Sources */,
+				37692AFBA770A46669FB3E5529C69F01 /* Frameworks */,
+				AD6FBCF59D36CE14A8F9408C73AD7677 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				10CDEEC71A28DCC968AE6F048331C41B /* PBXTargetDependency */,
-				9FBBB3535AD14C936D4A25B612957C50 /* PBXTargetDependency */,
-				AC78AD1B063D918C0450845DA15F9A04 /* PBXTargetDependency */,
-				CF80DBA7ADA47CEDC87F882881DA5402 /* PBXTargetDependency */,
+				2D82E9B3E0527336B5A7B20D0B51454D /* PBXTargetDependency */,
+				64DE79BAC824FB8E3AD490F94E440D78 /* PBXTargetDependency */,
+				15A4E530FDCC4E4F08443115FED28B06 /* PBXTargetDependency */,
 			);
 			name = "Pods-NetworkLayerConstruction";
 			productName = "Pods-NetworkLayerConstruction";
@@ -714,11 +468,10 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F13EFAB1183574E4B090C5390A65DFA2 /* Products */;
+			productRefGroup = F3E4D4A5E3271EA840AEA1CA0ED1B236 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E647912D2B71D47B98C02E8E0ECA41A /* FBRetainCycleDetector */,
 				2CF35708FB4F8DCA85F300A9C0B1A1BE /* Pods-NetworkLayerConstruction */,
 				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 				AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */,
@@ -728,13 +481,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		72BFABB31CA0F9196ADE9DC56E8A64B5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7BB2E885B360CCC1AEF0C191542BA06E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -750,7 +496,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA121746967B7A6368EDD833EC8B9FA7 /* Resources */ = {
+		AD6FBCF59D36CE14A8F9408C73AD7677 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -767,47 +513,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4705C9C6DA4488C33812752FF23E976C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AB5BA433F47C2F7DFB0DA0E4B929162 /* FBAssociationManager.mm in Sources */,
-				E14FDC29A656C3981024ED2510463516 /* FBBlockStrongLayout.m in Sources */,
-				558F4F4E3DD0632771BFF4805DDBF9D2 /* FBBlockStrongRelationDetector.m in Sources */,
-				1BE446E3EAEBC93BAA70A18B97681D81 /* FBClassStrongLayout.mm in Sources */,
-				F03300D44439943FE05DF83E832670E2 /* FBClassStrongLayoutHelpers.m in Sources */,
-				F4BDAA8AEBCC5CC81BA0A8DC57BB2A63 /* FBIvarReference.m in Sources */,
-				02941F1F5BA91B5EE2DAEA0EAE8B5F28 /* FBNodeEnumerator.mm in Sources */,
-				C7ADFDA9B467ECFFD5D73FBD6341524B /* FBObjectGraphConfiguration.m in Sources */,
-				2502EA6AE719CDF842B94C7A211D012E /* FBObjectInStructReference.m in Sources */,
-				368091B1382E9796F814F9AA94E87B67 /* FBObjectiveCBlock.m in Sources */,
-				066F615680F8B09B7E42273A0DC6BC18 /* FBObjectiveCGraphElement.mm in Sources */,
-				18BA8DB57594BE50190BC1BBB49CCF13 /* FBObjectiveCNSCFTimer.mm in Sources */,
-				2F1C1C0B1AC28CA68EAE15A6B75C6BCF /* FBObjectiveCObject.m in Sources */,
-				32303EDFF7F90BA71936B7D4876D107D /* FBRetainCycleDetector-dummy.m in Sources */,
-				4C6D22C4D8E88A5E73C9195EA35FBFFE /* FBRetainCycleDetector.mm in Sources */,
-				5AE67238AF5D3CF8193F89AB7E086F99 /* FBRetainCycleUtils.m in Sources */,
-				2533D298BD148D74770EB6BE8DF833D4 /* FBStandardGraphEdgeFilters.mm in Sources */,
-				C15340A32401EA5D3C1338AB9FB61037 /* FBStructEncodingParser.mm in Sources */,
-				36025E4DF6385AB0C81088DBADD65C5A /* fishhook.c in Sources */,
-				26CFACEC1D36DE12D8C462864AD1D4B3 /* Struct.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		495696B72538D2A337ECB795705EDE2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C48777388547C9CF0DA0F4E8656F9E90 /* SwiftSpinner-dummy.m in Sources */,
 				B7997CBF20D90A8AA9FD31264BA0607B /* SwiftSpinner.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A079F3F57D49EB6FF8AF6060B285FC5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7282E05A35E9842E91AE977514B28101 /* Pods-NetworkLayerConstruction-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,6 +533,14 @@
 				D814CDB6E25BF890490D9E0B46CE7593 /* ViewAnimator-dummy.m in Sources */,
 				16277F2E3455133F45D6BA9B3E89C891 /* ViewAnimator.swift in Sources */,
 				3FD16B601F57FC15298B2C38DD872C2D /* ViewAnimatorConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB64BC6EFCBEDFAE42EFA6C75972F976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01735668E7DC2CD0DF61C6FD91B15BF5 /* Pods-NetworkLayerConstruction-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,139 +559,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10CDEEC71A28DCC968AE6F048331C41B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBRetainCycleDetector;
-			target = 0E647912D2B71D47B98C02E8E0ECA41A /* FBRetainCycleDetector */;
-			targetProxy = 42D8B64D7327D98B37E9F3E57176D569 /* PBXContainerItemProxy */;
-		};
-		9FBBB3535AD14C936D4A25B612957C50 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 5C9793F5C35F872CB8A93C5EEC8F4FFA /* PBXContainerItemProxy */;
-		};
-		AC78AD1B063D918C0450845DA15F9A04 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftSpinner;
-			target = AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */;
-			targetProxy = B4447DE8941FE3B841E160740182AC16 /* PBXContainerItemProxy */;
-		};
-		CF80DBA7ADA47CEDC87F882881DA5402 /* PBXTargetDependency */ = {
+		15A4E530FDCC4E4F08443115FED28B06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ViewAnimator;
 			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
-			targetProxy = B175E568456A52FFE2D6730E18348066 /* PBXContainerItemProxy */;
+			targetProxy = 0372C798023318027EC1DB5E67213547 /* PBXContainerItemProxy */;
+		};
+		2D82E9B3E0527336B5A7B20D0B51454D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 0493AF517E46395CE25A8589FB816658 /* PBXContainerItemProxy */;
+		};
+		64DE79BAC824FB8E3AD490F94E440D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */;
+			targetProxy = 3F36B55104C41F17AC43E2B2F021A749 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CBFEFD562EB15961EC30E8B32CBA455 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F4A93D23481DEFE00ECC4FE5C68AED /* SVProgressHUD.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		209E3071BBD9517194CD624E94FA7798 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8394BF828BB02A00D301E5C637DDBAD /* SwiftSpinner.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
-				PRODUCT_MODULE_NAME = SwiftSpinner;
-				PRODUCT_NAME = SwiftSpinner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3DC67F59278B4B97EA01676DBFD5C623 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C62827D8C4E62D431C478670CF5A0C80 /* FBRetainCycleDetector.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector.modulemap";
-				PRODUCT_MODULE_NAME = FBRetainCycleDetector;
-				PRODUCT_NAME = FBRetainCycleDetector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		45DC8A5329DEC20C529D26D2D2AE7F04 /* Debug */ = {
+		01707D623CED80E8E56A37BD1ACC388C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA35ED0BE7A85172EEF4CF15A4275ED9 /* Pods-NetworkLayerConstruction.debug.xcconfig */;
 			buildSettings = {
@@ -1010,12 +618,10 @@
 			};
 			name = Debug;
 		};
-		68719494B34AF5A8B0CB2F9FF48D0283 /* Release */ = {
+		1CBFEFD562EB15961EC30E8B32CBA455 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A66A45032311EC5AA0E80638BE403215 /* Pods-NetworkLayerConstruction.release.xcconfig */;
+			baseConfigurationReference = 35FA5C07448DE59C035F590BF1B88EFB /* SVProgressHUD.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1025,29 +631,62 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NetworkLayerConstruction/Pods-NetworkLayerConstruction-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NetworkLayerConstruction/Pods-NetworkLayerConstruction.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		209E3071BBD9517194CD624E94FA7798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D9133CFF2B27590E8009623B3F4887 /* SwiftSpinner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSpinner;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1115,7 +754,7 @@
 		};
 		BE6791824CFF41E78A5C2275D0E0E46C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB8124DAFEAC6548008FA1F1D03D5941 /* ViewAnimator.debug.xcconfig */;
+			baseConfigurationReference = 65F68308B4FC2C8D22C4B008478A9F43 /* ViewAnimator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1148,10 +787,12 @@
 			};
 			name = Debug;
 		};
-		D29E98DB95BD711E9A1765A4749FD6AE /* Release */ = {
+		D27216F6141B16A6936C58811B1C56E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49F6969B5E468686F4C8CB148BBDCEF8 /* FBRetainCycleDetector.release.xcconfig */;
+			baseConfigurationReference = A66A45032311EC5AA0E80638BE403215 /* Pods-NetworkLayerConstruction.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1161,22 +802,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NetworkLayerConstruction/Pods-NetworkLayerConstruction-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector.modulemap";
-				PRODUCT_MODULE_NAME = FBRetainCycleDetector;
-				PRODUCT_NAME = FBRetainCycleDetector;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NetworkLayerConstruction/Pods-NetworkLayerConstruction.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1186,7 +828,7 @@
 		};
 		D71A42BD1F5825EC1CD0BA8567C92E5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60119EF5B0A6F76F3AAA1886027EED5F /* ViewAnimator.release.xcconfig */;
+			baseConfigurationReference = 9158E48B8FBF027A516016C8550C14E2 /* ViewAnimator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1222,7 +864,7 @@
 		};
 		DB8DF0C1FC2A181B0C5BCF1E0BAAC682 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0DF9B51172A1249285390FC0B30BFFD /* SVProgressHUD.release.xcconfig */;
+			baseConfigurationReference = B28181309B794E4F7641C90CE5D56E1A /* SVProgressHUD.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1258,7 +900,7 @@
 		};
 		E47C67092BA98348BE8373A62AB809CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79D8D9BEBB7C845D3B88954991A3430D /* SwiftSpinner.release.xcconfig */;
+			baseConfigurationReference = E44427912BFD6F6D5AE0A3BAE889AA24 /* SwiftSpinner.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1364,11 +1006,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DF19280816486D6A02354AA7AF606E9 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector" */ = {
+		7D523EB99A138733C9E0CB03D1491AB7 /* Build configuration list for PBXNativeTarget "Pods-NetworkLayerConstruction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DC67F59278B4B97EA01676DBFD5C623 /* Debug */,
-				D29E98DB95BD711E9A1765A4749FD6AE /* Release */,
+				01707D623CED80E8E56A37BD1ACC388C /* Debug */,
+				D27216F6141B16A6936C58811B1C56E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1387,15 +1029,6 @@
 			buildConfigurations = (
 				BE6791824CFF41E78A5C2275D0E0E46C /* Debug */,
 				D71A42BD1F5825EC1CD0BA8567C92E5A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C309E4C3893D14082C89F41216BCB24C /* Build configuration list for PBXNativeTarget "Pods-NetworkLayerConstruction" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				45DC8A5329DEC20C529D26D2D2AE7F04 /* Debug */,
-				68719494B34AF5A8B0CB2F9FF48D0283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,7 +15,7 @@
 	
      pod 'SVProgressHUD'
 	 
-      pod 'FBRetainCycleDetector' 
+  #    pod 'FBRetainCycleDetector' 
         
        pod 'ViewAnimator'
 	
