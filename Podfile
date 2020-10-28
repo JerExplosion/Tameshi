@@ -20,5 +20,7 @@
        pod 'ViewAnimator'
 	
         pod "SwiftSpinner"
+	
+ 	pod 'AlamofireObjectMapper', '~> 5.2'
 
 end
