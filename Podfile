@@ -21,6 +21,6 @@
 	
         pod "SwiftSpinner"
 	
- 	pod 'AlamofireObjectMapper', '~> 5.2'
+ #	pod 'AlamofireObjectMapper', '~> 5.2'
 
 end
