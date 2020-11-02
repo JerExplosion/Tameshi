@@ -25,6 +25,6 @@
 	
          pod 'Kingfisher'
 		
-          pod 'RealmSwift' 
+     #     pod 'RealmSwift' 
 
 end

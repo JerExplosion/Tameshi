@@ -2,18 +2,12 @@ PODS:
   - Kingfisher (5.15.7):
     - Kingfisher/Core (= 5.15.7)
   - Kingfisher/Core (5.15.7)
-  - Realm (10.0.0):
-    - Realm/Headers (= 10.0.0)
-  - Realm/Headers (10.0.0)
-  - RealmSwift (10.0.0):
-    - Realm (= 10.0.0)
   - SVProgressHUD (2.2.5)
   - SwiftSpinner (2.1.0)
   - ViewAnimator (3.0.1)
 
 DEPENDENCIES:
   - Kingfisher
-  - RealmSwift
   - SVProgressHUD
   - SwiftSpinner
   - ViewAnimator
@@ -21,20 +15,16 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Kingfisher
-    - Realm
-    - RealmSwift
     - SVProgressHUD
     - SwiftSpinner
     - ViewAnimator
 
 SPEC CHECKSUMS:
   Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
-  Realm: 5654b8e5e45034d07b219e089034be2ef7d1e7bf
-  RealmSwift: 5b4c8c85be4c14ff52054a4d80a8d338167dd79c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
   ViewAnimator: dd18d2f5c1e472f78d0065ff92750fe56cbd2f39
 
-PODFILE CHECKSUM: d80cd670b3f3eb23c4727c962a5faa4ec4c51a00
+PODFILE CHECKSUM: 9bc375b994a1eb5e37fabcdda9a2f5da21e56eb5
 
 COCOAPODS: 1.9.2
