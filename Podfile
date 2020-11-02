@@ -24,5 +24,7 @@
  #	pod 'AlamofireObjectMapper', '~> 5.2'
 	
          pod 'Kingfisher'
+		
+          pod 'RealmSwift' 
 
 end
