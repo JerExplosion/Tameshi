@@ -26,5 +26,7 @@
          pod 'Kingfisher'
 		
      #     pod 'RealmSwift' 
+	
+	     pod 'SwiftyJSON', '~> 4.0'
 
 end
