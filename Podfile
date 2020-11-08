@@ -28,5 +28,7 @@
      #     pod 'RealmSwift' 
 	
 	     pod 'SwiftyJSON', '~> 4.0'
+	     
+  		pod 'PKHUD'
 
 end
