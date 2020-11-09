@@ -5,7 +5,6 @@ PODS:
   - PKHUD (5.3.0)
   - SVProgressHUD (2.2.5)
   - SwiftSpinner (2.1.0)
-  - SwiftyJSON (4.3.0)
   - ViewAnimator (3.0.1)
 
 DEPENDENCIES:
@@ -13,7 +12,6 @@ DEPENDENCIES:
   - PKHUD
   - SVProgressHUD
   - SwiftSpinner
-  - SwiftyJSON (~> 4.0)
   - ViewAnimator
 
 SPEC REPOS:
@@ -22,7 +20,6 @@ SPEC REPOS:
     - PKHUD
     - SVProgressHUD
     - SwiftSpinner
-    - SwiftyJSON
     - ViewAnimator
 
 SPEC CHECKSUMS:
@@ -30,9 +27,8 @@ SPEC CHECKSUMS:
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
-  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   ViewAnimator: dd18d2f5c1e472f78d0065ff92750fe56cbd2f39
 
-PODFILE CHECKSUM: 7292bc04c5c6830fed685a4bbed27a1d1d00b663
+PODFILE CHECKSUM: 48e5aedce5845885333ef0eb54f9ecff7f494d0f
 
 COCOAPODS: 1.9.2
