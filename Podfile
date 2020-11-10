@@ -11,7 +11,7 @@
    
  #  pod 'ObjectMapper', '~> 3.5'
 	    
-   # pod 'IQKeyboardManagerSwift' 
+  	 pod 'IQKeyboardManagerSwift' 
 	
      pod 'SVProgressHUD'
 	 
