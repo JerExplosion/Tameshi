@@ -12,4 +12,12 @@ struct GloballyApplied {
     static let baseURLString = "BASE_URL"
     static let nothingness = ""
     static let getMethod = "GET"
+    static let postMethod = "POST"
+    static let applicationSlashJson = "application/json"
+    static let contentType = "Content-Type"
+}          
+
+protocol CodaModel: Codable {
+    // used in worknet class
 }
+          

@@ -13,7 +13,7 @@ protocol WorkNetProtocol {
 
 class WorkNet {
     static let shared = WorkNet.init()
-    let nwSession = URLSession() //deprecated in ios 13 though
+    let nwSessionDeprecated = URLSession() //deprecated in ios 13 though
     let nwSessionObject: URLSession? = URLSession(configuration: .default)
     
     private let nwQueue = DispatchQueue(label: GloballyApplied.dispatchQueueLabel, qos: .userInitiated, attributes: .concurrent)
@@ -27,7 +27,7 @@ class WorkNet {
                 
                 let result: Result<T, Error>
                 
-                if let erro = erro {
+                if let erro = erro { // redundant if let?
                     result = .failure(erro)
                 } else if let data = data {
                     do {
@@ -37,17 +37,15 @@ class WorkNet {
                         result = .failure(erro)
                     }
                 }
-            }
+            }.resume()
             
         }
     }
-
     enum NetworkerErro: Error {
         case noData
         case noDataAndNoError
     }
 }
 
-protocol CodaModel: Codable {
-    
-}
+
+
