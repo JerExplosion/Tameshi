@@ -8,7 +8,6 @@
 import Foundation
 
 struct GetRequest: RequestabilityProtocol {
-    
     let path: String
     let method: String
     
@@ -16,9 +15,7 @@ struct GetRequest: RequestabilityProtocol {
         self.method = method
         self.path = path
     }
-    
     func urlRequestFunc() -> URLRequest {
-
         guard let url = URL(string: GloballyApplied.baseURLString) else {
             let emptyURL = URL(fileURLWithPath: GloballyApplied.nothingness)
             let emptyRequest = URLRequest(url: emptyURL)

@@ -13,7 +13,7 @@
 	    
   	 pod 'IQKeyboardManagerSwift' 
 	
-     pod 'SVProgressHUD'
+ #    pod 'SVProgressHUD'
 	 
   #    pod 'FBRetainCycleDetector' 
         
@@ -30,5 +30,6 @@
 	#     pod 'SwiftyJSON', '~> 4.0'
 	     
   		pod 'PKHUD'
+	
 
 end

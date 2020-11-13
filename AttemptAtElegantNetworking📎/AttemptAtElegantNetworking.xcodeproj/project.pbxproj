@@ -20,6 +20,7 @@
 		8FAA3E0B255B7452000ABE7A /* GeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA3E0A255B7452000ABE7A /* GeRequest.swift */; };
 		8FAA3E0E255B797C000ABE7A /* RunnableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA3E0D255B797C000ABE7A /* RunnableViewController.swift */; };
 		8FAA3E11255BA391000ABE7A /* ErroStatusExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA3E10255BA391000ABE7A /* ErroStatusExtension.swift */; };
+		8FC1AFDB255CF47A00135FC3 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1AFDA255CF47A00135FC3 /* EndPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8FAA3E0A255B7452000ABE7A /* GeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeRequest.swift; sourceTree = "<group>"; };
 		8FAA3E0D255B797C000ABE7A /* RunnableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnableViewController.swift; sourceTree = "<group>"; };
 		8FAA3E10255BA391000ABE7A /* ErroStatusExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErroStatusExtension.swift; sourceTree = "<group>"; };
+		8FC1AFDA255CF47A00135FC3 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +82,21 @@
 				8FAA3E07255B73B9000ABE7A /* PoRequest.swift */,
 				8FAA3E0A255B7452000ABE7A /* GeRequest.swift */,
 				8FAA3DF9255B5C75000ABE7A /* BorrowableLog.swift */,
+				8FC1AFDD255CF48100135FC3 /* Approach 逆 */,
 				8FAA3DE0255B5382000ABE7A /* Main.storyboard */,
 				8FAA3DE3255B5384000ABE7A /* Assets.xcassets */,
 				8FAA3DE5255B5384000ABE7A /* LaunchScreen.storyboard */,
 				8FAA3DE8255B5384000ABE7A /* Info.plist */,
 			);
 			path = AttemptAtElegantNetworking;
+			sourceTree = "<group>";
+		};
+		8FC1AFDD255CF48100135FC3 /* Approach 逆 */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1AFDA255CF47A00135FC3 /* EndPoints.swift */,
+			);
+			path = "Approach 逆";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				8FAA3DF7255B5B9A000ABE7A /* RequestableProtocol.swift in Sources */,
 				8FAA3DFA255B5C75000ABE7A /* BorrowableLog.swift in Sources */,
 				8FAA3E0B255B7452000ABE7A /* GeRequest.swift in Sources */,
+				8FC1AFDB255CF47A00135FC3 /* EndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
