@@ -38,7 +38,6 @@ class WorkNet {
                     }
                 }
             }.resume()
-            
         }
     }
     enum NetworkerErro: Error {

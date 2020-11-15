@@ -13,3 +13,7 @@ final class RunnableViewController: UIViewController {
         view.backgroundColor = .lightGray
     }
 }
+
+extension RunnableViewController {
+    
+}
