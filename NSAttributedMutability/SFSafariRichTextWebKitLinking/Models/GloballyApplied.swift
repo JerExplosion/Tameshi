@@ -14,8 +14,20 @@ struct GloballyApplied {
     static let mockHtmlStr = """
     <html>
     <body>
-    <h1>Hello, world!</h1>
+    <h2>     my name is jerry     </h2>
     </body>
+    <a href="https://github.com/JerExplosion">link text</a>
+    <table>
+    <tbody>
+    <tr>
+    <th>My github accounts are </th>
+    </tr>
+    <tr>
+    <td>https://github.com/JerExplosion</td>
+    </tr>
+    <td>https://github.com/JerExplosionNextGeneration</td>
+    </tbody>
+    </table>
     </html>
     """
     static let personallyPreferredFont = "Georgia"

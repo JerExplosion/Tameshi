@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F621ACA2566E4F000D148C6 /* UploadProgressJustForFun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F621AC92566E4F000D148C6 /* UploadProgressJustForFun.swift */; };
 		8FC91DF92565929400F02552 /* TxtViewDelegateExtends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC91DF82565929400F02552 /* TxtViewDelegateExtends.swift */; };
 		8FDC3E48256586630033AD44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC3E47256586630033AD44 /* AppDelegate.swift */; };
 		8FDC3E4A256586640033AD44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC3E49256586640033AD44 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F621AC92566E4F000D148C6 /* UploadProgressJustForFun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressJustForFun.swift; sourceTree = "<group>"; };
 		8FC91DF82565929400F02552 /* TxtViewDelegateExtends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtViewDelegateExtends.swift; sourceTree = "<group>"; };
 		8FDC3E44256586630033AD44 /* SFSafariRichTextWebKitLinking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSafariRichTextWebKitLinking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC3E47256586630033AD44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				8FDC3E4B256586640033AD44 /* EntranceViewController.swift */,
 				8FDC3E5F256586AF0033AD44 /* ComputedWebKitViewController.swift */,
+				8F621AC92566E4F000D148C6 /* UploadProgressJustForFun.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				8FDC3E5D256586870033AD44 /* GloballyApplied.swift in Sources */,
 				8FDC3E48256586630033AD44 /* AppDelegate.swift in Sources */,
 				8FDC3E4A256586640033AD44 /* SceneDelegate.swift in Sources */,
+				8F621ACA2566E4F000D148C6 /* UploadProgressJustForFun.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

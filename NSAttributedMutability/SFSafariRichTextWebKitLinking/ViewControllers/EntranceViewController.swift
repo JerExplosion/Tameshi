@@ -16,7 +16,8 @@ final class EntranceViewController: UIViewController {
             super.viewDidLoad()
             print(GloballyApplied.mockableChunkOfText.count)
             txtVappearance()
-            detectorMethod(targetData: targetDataStr)
+            htmlConversion()
+            // detectorMethod(targetData: targetDataStr)
         }
     
     private func txtVattributedSetup(flexibleRange: NSRange) {
@@ -55,6 +56,9 @@ final class EntranceViewController: UIViewController {
         let dataFromHtml = Data(GloballyApplied.mockHtmlStr.utf8)
         if let convertedAttributedStr = try? NSAttributedString(data: dataFromHtml, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) {
             print(convertedAttributedStr)
+            txtV.attributedText = convertedAttributedStr
         }
     }
 }
+
+
