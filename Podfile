@@ -9,7 +9,9 @@
 
   # Pods for CustomViewMVVM  
    
- #  pod 'ObjectMapper', '~> 3.5'
+ #  pod 'ObjectMapper', '~> 3.5' 
+
+     pod 'ObjectMapper', '~> 0.19'
 	    
   	 pod 'IQKeyboardManagerSwift' 
 	
