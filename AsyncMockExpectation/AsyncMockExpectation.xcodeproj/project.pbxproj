@@ -19,9 +19,8 @@
 		8F2AE52C256DF36C00DEE434 /* DecodableStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE52B256DF36C00DEE434 /* DecodableStructs.swift */; };
 		8F2AE52F256E0F0A00DEE434 /* RealClientvsMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE52E256E0F0A00DEE434 /* RealClientvsMockClient.swift */; };
 		8F2AE53A256E16E700DEE434 /* AsyncTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE539256E16E700DEE434 /* AsyncTesting.swift */; };
-		8F61F606257A9B17007B5D45 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 8F61F605257A9B17007B5D45 /* SwiftPackageProductDependency */; };
+		8F61F606257A9B17007B5D45 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F61F605257A9B17007B5D45 /* KeychainSwift */; };
 		8F61F60A257A9B7B007B5D45 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F61F609257A9B7B007B5D45 /* KeychainSwift.swift */; };
-		A9A32D99F3DB41E218C82D1D /* Pods_AsyncMockExpectation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0F22E0F34E62A7216D1B95 /* Pods_AsyncMockExpectation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D77996CE09BDD9D17DA290A /* Pods-AsyncMockExpectation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncMockExpectation.debug.xcconfig"; path = "Target Support Files/Pods-AsyncMockExpectation/Pods-AsyncMockExpectation.debug.xcconfig"; sourceTree = "<group>"; };
 		8F2AE50A256DC4BB00DEE434 /* AsyncMockExpectation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncMockExpectation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2AE50D256DC4BB00DEE434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F2AE50F256DC4BB00DEE434 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +51,6 @@
 		8F2AE539256E16E700DEE434 /* AsyncTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTesting.swift; sourceTree = "<group>"; };
 		8F2AE53B256E16E700DEE434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F61F609257A9B7B007B5D45 /* KeychainSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
-		A359836A062B6323881C505C /* Pods-AsyncMockExpectation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncMockExpectation.release.xcconfig"; path = "Target Support Files/Pods-AsyncMockExpectation/Pods-AsyncMockExpectation.release.xcconfig"; sourceTree = "<group>"; };
-		FA0F22E0F34E62A7216D1B95 /* Pods_AsyncMockExpectation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncMockExpectation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F61F606257A9B17007B5D45 /* BuildFile in Frameworks */,
-				A9A32D99F3DB41E218C82D1D /* Pods_AsyncMockExpectation.framework in Frameworks */,
+				8F61F606257A9B17007B5D45 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,8 +78,6 @@
 				8F2AE50C256DC4BB00DEE434 /* AsyncMockExpectation */,
 				8F2AE538256E16E700DEE434 /* AsyncTesting */,
 				8F2AE50B256DC4BB00DEE434 /* Products */,
-				F0F2861CD0B91A4162847E1E /* Pods */,
-				9C339B6F20232F064FEDB55E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,24 +119,6 @@
 			path = AsyncTesting;
 			sourceTree = "<group>";
 		};
-		9C339B6F20232F064FEDB55E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FA0F22E0F34E62A7216D1B95 /* Pods_AsyncMockExpectation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F0F2861CD0B91A4162847E1E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D77996CE09BDD9D17DA290A /* Pods-AsyncMockExpectation.debug.xcconfig */,
-				A359836A062B6323881C505C /* Pods-AsyncMockExpectation.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,11 +126,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F2AE51E256DC4BF00DEE434 /* Build configuration list for PBXNativeTarget "AsyncMockExpectation" */;
 			buildPhases = (
-				60987E57E4410682F080CCCC /* [CP] Check Pods Manifest.lock */,
 				8F2AE506256DC4BB00DEE434 /* Sources */,
 				8F2AE507256DC4BB00DEE434 /* Frameworks */,
 				8F2AE508256DC4BB00DEE434 /* Resources */,
-				990842234334BE532BF14B99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,7 +136,7 @@
 			);
 			name = AsyncMockExpectation;
 			packageProductDependencies = (
-				8F61F605257A9B17007B5D45 /* SwiftPackageProductDependency */,
+				8F61F605257A9B17007B5D45 /* KeychainSwift */,
 			);
 			productName = AsyncMockExpectation;
 			productReference = 8F2AE50A256DC4BB00DEE434 /* AsyncMockExpectation.app */;
@@ -215,7 +188,7 @@
 			);
 			mainGroup = 8F2AE501256DC4BB00DEE434;
 			packageReferences = (
-				8F61F604257A9B17007B5D45 /* RemoteSwiftPackageReference */,
+				8F61F604257A9B17007B5D45 /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			productRefGroup = 8F2AE50B256DC4BB00DEE434 /* Products */;
 			projectDirPath = "";
@@ -246,48 +219,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		60987E57E4410682F080CCCC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AsyncMockExpectation-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		990842234334BE532BF14B99 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AsyncMockExpectation/Pods-AsyncMockExpectation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AsyncMockExpectation/Pods-AsyncMockExpectation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncMockExpectation/Pods-AsyncMockExpectation-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F2AE506256DC4BB00DEE434 /* Sources */ = {
@@ -462,7 +393,6 @@
 		};
 		8F2AE51F256DC4BF00DEE434 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D77996CE09BDD9D17DA290A /* Pods-AsyncMockExpectation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -482,7 +412,6 @@
 		};
 		8F2AE520256DC4BF00DEE434 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A359836A062B6323881C505C /* Pods-AsyncMockExpectation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -573,7 +502,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8F61F604257A9B17007B5D45 /* RemoteSwiftPackageReference */ = {
+		8F61F604257A9B17007B5D45 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
 			requirement = {
@@ -584,9 +513,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8F61F605257A9B17007B5D45 /* SwiftPackageProductDependency */ = {
+		8F61F605257A9B17007B5D45 /* KeychainSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8F61F604257A9B17007B5D45 /* RemoteSwiftPackageReference */;
+			package = 8F61F604257A9B17007B5D45 /* XCRemoteSwiftPackageReference "keychain-swift" */;
 			productName = KeychainSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
