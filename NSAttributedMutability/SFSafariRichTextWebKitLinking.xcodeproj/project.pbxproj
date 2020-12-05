@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D6EFA03726C91CBB563C8CE /* Pods_SFSafariRichTextWebKitLinking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD0CD09CE4AE2D125C09493 /* Pods_SFSafariRichTextWebKitLinking.framework */; };
 		8F621ACA2566E4F000D148C6 /* UploadProgressJustForFun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F621AC92566E4F000D148C6 /* UploadProgressJustForFun.swift */; };
 		8FC91DF92565929400F02552 /* TxtViewDelegateExtends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC91DF82565929400F02552 /* TxtViewDelegateExtends.swift */; };
 		8FDC3E48256586630033AD44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC3E47256586630033AD44 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8F621AC92566E4F000D148C6 /* UploadProgressJustForFun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressJustForFun.swift; sourceTree = "<group>"; };
+		8F82D16F0F71CE2FB34BD4A9 /* Pods-SFSafariRichTextWebKitLinking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFSafariRichTextWebKitLinking.release.xcconfig"; path = "Target Support Files/Pods-SFSafariRichTextWebKitLinking/Pods-SFSafariRichTextWebKitLinking.release.xcconfig"; sourceTree = "<group>"; };
 		8FC91DF82565929400F02552 /* TxtViewDelegateExtends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxtViewDelegateExtends.swift; sourceTree = "<group>"; };
 		8FDC3E44256586630033AD44 /* SFSafariRichTextWebKitLinking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSafariRichTextWebKitLinking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC3E47256586630033AD44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +34,8 @@
 		8FDC3E55256586690033AD44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDC3E5C256586870033AD44 /* GloballyApplied.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloballyApplied.swift; sourceTree = "<group>"; };
 		8FDC3E5F256586AF0033AD44 /* ComputedWebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedWebKitViewController.swift; sourceTree = "<group>"; };
+		CCD0CD09CE4AE2D125C09493 /* Pods_SFSafariRichTextWebKitLinking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFSafariRichTextWebKitLinking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA0E737DDD03E8F614DE290 /* Pods-SFSafariRichTextWebKitLinking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFSafariRichTextWebKitLinking.debug.xcconfig"; path = "Target Support Files/Pods-SFSafariRichTextWebKitLinking/Pods-SFSafariRichTextWebKitLinking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,12 +43,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6EFA03726C91CBB563C8CE /* Pods_SFSafariRichTextWebKitLinking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19FEB0D98F28A008728237CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0E737DDD03E8F614DE290 /* Pods-SFSafariRichTextWebKitLinking.debug.xcconfig */,
+				8F82D16F0F71CE2FB34BD4A9 /* Pods-SFSafariRichTextWebKitLinking.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DA613F19F7ACC279005CFF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0CD09CE4AE2D125C09493 /* Pods_SFSafariRichTextWebKitLinking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FB1B8972566297200A42DC0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +107,8 @@
 			children = (
 				8FDC3E46256586630033AD44 /* SFSafariRichTextWebKitLinking */,
 				8FDC3E45256586630033AD44 /* Products */,
+				19FEB0D98F28A008728237CC /* Pods */,
+				8DA613F19F7ACC279005CFF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FDC3E58256586690033AD44 /* Build configuration list for PBXNativeTarget "SFSafariRichTextWebKitLinking" */;
 			buildPhases = (
+				7AD75D64CC7B60FA75C3FD7C /* [CP] Check Pods Manifest.lock */,
 				8FDC3E40256586630033AD44 /* Sources */,
 				8FDC3E41256586630033AD44 /* Frameworks */,
 				8FDC3E42256586630033AD44 /* Resources */,
+				F5D1AED3E0BF302A3A34EFE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +202,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AD75D64CC7B60FA75C3FD7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SFSafariRichTextWebKitLinking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D1AED3E0BF302A3A34EFE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SFSafariRichTextWebKitLinking/Pods-SFSafariRichTextWebKitLinking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SFSafariRichTextWebKitLinking/Pods-SFSafariRichTextWebKitLinking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SFSafariRichTextWebKitLinking/Pods-SFSafariRichTextWebKitLinking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FDC3E40256586630033AD44 /* Sources */ = {
@@ -331,6 +400,7 @@
 		};
 		8FDC3E59256586690033AD44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA0E737DDD03E8F614DE290 /* Pods-SFSafariRichTextWebKitLinking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -350,6 +420,7 @@
 		};
 		8FDC3E5A256586690033AD44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F82D16F0F71CE2FB34BD4A9 /* Pods-SFSafariRichTextWebKitLinking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,6 @@
+framework module Pods_SFSafariRichTextWebKitLinking {
+  umbrella header "Pods-SFSafariRichTextWebKitLinking-umbrella.h"
+
+  export *
+  module * { export * }
+}
