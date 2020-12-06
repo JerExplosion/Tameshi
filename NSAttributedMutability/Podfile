@@ -6,6 +6,7 @@ target 'SFSafariRichTextWebKitLinking' do
   use_frameworks!
 
   # Pods for SFSafariRichTextWebKitLinking 
+	pod 'ReachabilitySwift'
 	pod 'KeychainSwift', '~> 19.0'
 
 end

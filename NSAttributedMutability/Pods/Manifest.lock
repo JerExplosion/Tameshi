@@ -1,16 +1,20 @@
 PODS:
   - KeychainSwift (19.0.0)
+  - ReachabilitySwift (5.0.0)
 
 DEPENDENCIES:
   - KeychainSwift (~> 19.0)
+  - ReachabilitySwift
 
 SPEC REPOS:
   trunk:
     - KeychainSwift
+    - ReachabilitySwift
 
 SPEC CHECKSUMS:
   KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
 
-PODFILE CHECKSUM: 05ca9856633a1a20210c52a5168e8cd0a33b18ff
+PODFILE CHECKSUM: 9c010c970482f46daf032f66501debe1606ceb45
 
 COCOAPODS: 1.9.2
