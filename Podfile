@@ -31,7 +31,7 @@
 	
 	#     pod 'SwiftyJSON', '~> 4.0'
 	     
-  		pod 'PKHUD'
+  	#	pod 'PKHUD'
 
 	pod 'SwiftLint'
 	
