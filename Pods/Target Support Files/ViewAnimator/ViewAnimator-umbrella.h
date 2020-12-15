@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ReachabilityVersionNumber;
-FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
+FOUNDATION_EXPORT double ViewAnimatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char ViewAnimatorVersionString[];
 

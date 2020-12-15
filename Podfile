@@ -19,7 +19,7 @@
 	 
   #    pod 'FBRetainCycleDetector' 
         
-  #     pod 'ViewAnimator'
+       pod 'ViewAnimator'
 	
     #    pod "SwiftSpinner"
 	
@@ -34,8 +34,6 @@
   	#	pod 'PKHUD'
 
 	pod 'SwiftLint'
-	
-	pod 'ReachabilitySwift'
 	
 
 end
