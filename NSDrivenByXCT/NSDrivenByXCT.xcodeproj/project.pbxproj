@@ -20,6 +20,7 @@
 		8F5D373425A15BA20047F650 /* SupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D373325A15BA20047F650 /* SupWebService.swift */; };
 		8F5D373825A15CA80047F650 /* SUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D373725A15CA80047F650 /* SUpRequestModel.swift */; };
 		8F8902F725A63AAC0061EE14 /* UrlProtocolClassOverridden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8902F625A63AAC0061EE14 /* UrlProtocolClassOverridden.swift */; };
+		8F89030925A669ED0061EE14 /* GloballyApplicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F89030825A669ED0061EE14 /* GloballyApplicable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8F5D373325A15BA20047F650 /* SupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupWebService.swift; sourceTree = "<group>"; };
 		8F5D373725A15CA80047F650 /* SUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUpRequestModel.swift; sourceTree = "<group>"; };
 		8F8902F625A63AAC0061EE14 /* UrlProtocolClassOverridden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolClassOverridden.swift; sourceTree = "<group>"; };
+		8F89030825A669ED0061EE14 /* GloballyApplicable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloballyApplicable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				8F5D373725A15CA80047F650 /* SUpRequestModel.swift */,
 				8F43E68225A2A94800A9AEBB /* SUpResponseModel.swift */,
 				8F43E68625A2A99A00A9AEBB /* SUpErrors.swift */,
+				8F89030825A669ED0061EE14 /* GloballyApplicable.swift */,
 			);
 			path = SUpModels;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				8F5D370B25A15A750047F650 /* AppDelegate.swift in Sources */,
 				8F43E68325A2A94800A9AEBB /* SUpResponseModel.swift in Sources */,
 				8F5D373825A15CA80047F650 /* SUpRequestModel.swift in Sources */,
+				8F89030925A669ED0061EE14 /* GloballyApplicable.swift in Sources */,
 				8F5D370D25A15A750047F650 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

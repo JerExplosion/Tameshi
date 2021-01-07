@@ -8,7 +8,6 @@
 import Foundation
 
 class UrlMockedProtocolClass: URLProtocol {
-    
     static var stubResponseData: Data?
     
     override class func canInit(with request: URLRequest) -> Bool {

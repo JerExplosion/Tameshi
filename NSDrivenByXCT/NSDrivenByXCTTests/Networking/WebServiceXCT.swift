@@ -19,20 +19,34 @@ class WebServiceXCT: XCTestCase {
     }
     
     func testingWSwithSuccessfulResponse() throws {
+        
         // Arrange
-        let sut = SupWebService.init(urlString: "http://appsdeveloperblog.com:8080/signup-mock-service/users")
+        let eConfig = URLSessionConfiguration.ephemeral
+        eConfig.protocolClasses = [UrlMockedProtocolClass.self]
+        let urlSessionObj = URLSession(configuration: eConfig)
         
-//        let newSut = SupWebService.init(urlString: <#T##String#>, mockUrlSession: <#T##URLSession#>)
+        let jsonStr = "{\"status\":\"ok\"}"
+        UrlMockedProtocolClass.stubResponseData = jsonStr.data(using: .utf8)
+
+        let sut = SupWebService.init(urlString: GloballyApplicable.sUpUrlstring, mockUrlSession: urlSessionObj)
+
+        let sUpRequestModel = SUpRequestModel(first: "Sergey", last: "Kargopolov", email: "test@test.com", passcode: "12345678")
         
-        let sUpRequestModel = SUpRequestModel(first: "O", last: "S", email: "os.os", passcode: "os")
         let expectation = self.expectation(description: "sUp web service expectation")
+         
         // Act
         sut.sUp(with: sUpRequestModel) { (responseModel, error) in
             // Assert
             XCTAssertEqual(responseModel?.status, "ok") // or "oK"
             expectation.fulfill()
         }
-        self.wait(for: [expectation], timeout: 5.3)
+        self.wait(for: [expectation], timeout: 5)
     }
 
 }
+
+
+
+
+
+//      let sUpRequestModel = SUpRequestModel(first: "O", last: "S", email: "os.os", passcode: "os")
