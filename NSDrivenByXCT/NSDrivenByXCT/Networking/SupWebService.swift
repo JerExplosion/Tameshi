@@ -19,7 +19,7 @@ class SupWebService {
     
     func sUp(with requestModel: SUpRequestModel, completionHandler: @escaping (SUpResponseModel?, SUpErrors?) -> Void) {
         guard let urlObj = URL(string: urlString) else {
-            
+            completionHandler(nil, SUpErrors.requestModelErro)
             return
         }
         var request = URLRequest(url: urlObj)
@@ -28,11 +28,11 @@ class SupWebService {
         request.setValue("application/json", forHTTPHeaderField: "Accept")
         request.httpBody = try? JSONEncoder().encode(requestModel)
         
-        let dTask = URLSession.shared.dataTask(with: request) { (data, response, erro) in
+        let dTask = mockUrlSession.dataTask(with: request) { (data, response, erro) in
             if let data = data, let sUpResponseModel = try? JSONDecoder().decode(SUpResponseModel.self, from: data) {
                 completionHandler(sUpResponseModel, nil)
             } else {
-                 
+                completionHandler(nil, SUpErrors.parsingErro)
             }
         }
         dTask.resume()

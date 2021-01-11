@@ -8,7 +8,7 @@
 import Foundation
 
 class UrlMockedProtocolClass: URLProtocol {
-    static var stubResponseData: Data?
+    static var stubbedResponseData: Data?
     
     override class func canInit(with request: URLRequest) -> Bool {
          return true
@@ -16,12 +16,10 @@ class UrlMockedProtocolClass: URLProtocol {
     override class func canonicalRequest(for request: URLRequest) -> URLRequest {
         return request
     }
-    
     override func stopLoading() { }
-    //required to override, but body can be empty
-    
+
     override func startLoading() {
-        self.client?.urlProtocol(self, didLoad: UrlMockedProtocolClass.stubResponseData ?? Data())
+        self.client?.urlProtocol(self, didLoad: UrlMockedProtocolClass.stubbedResponseData ?? Data())
         self.client?.urlProtocolDidFinishLoading(self)
     }
 }
