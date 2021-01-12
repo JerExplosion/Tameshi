@@ -152,10 +152,10 @@
 		8F5D372425A15AD30047F650 /* NSDrivenByXCTTests */ = {
 			isa = PBXGroup;
 			children = (
-				8F43E69C25A2AAED00A9AEBB /* UselessForNow */,
-				8F43E69725A2AAD600A9AEBB /* Networking */,
-				8F5D372725A15AD30047F650 /* Info.plist */,
 				8F8902F625A63AAC0061EE14 /* UrlProtocolClassOverridden.swift */,
+				8F43E69725A2AAD600A9AEBB /* Networking */,
+				8F43E69C25A2AAED00A9AEBB /* UselessForNow */,
+				8F5D372725A15AD30047F650 /* Info.plist */,
 			);
 			path = NSDrivenByXCTTests;
 			sourceTree = "<group>";

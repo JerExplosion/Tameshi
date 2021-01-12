@@ -7,7 +7,10 @@
 
 import Foundation
 
-enum SUpErrors: LocalizedError, Equatable {
+enum SUpErrors: Error, Equatable {
     case parsingErro
     case requestModelErro
+    case invalidUrlStrErro
+    case failedRequestErro(erroDescription: String)
 }
+

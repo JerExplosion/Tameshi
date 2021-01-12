@@ -19,7 +19,7 @@ class SupWebService {
     
     func sUp(with requestModel: SUpRequestModel, completionHandler: @escaping (SUpResponseModel?, SUpErrors?) -> Void) {
         guard let urlObj = URL(string: urlString) else {
-            completionHandler(nil, SUpErrors.requestModelErro)
+            completionHandler(nil ,SUpErrors.invalidUrlStrErro)
             return
         }
         var request = URLRequest(url: urlObj)
