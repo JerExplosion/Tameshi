@@ -9,6 +9,7 @@ import Foundation
 
 class UrlSimulatedProtocolClass: URLProtocol {
     static var stubbedResponseData: Data?
+    static var erro: Error?
     
     override class func canInit(with request: URLRequest) -> Bool {
          return true
@@ -19,7 +20,11 @@ class UrlSimulatedProtocolClass: URLProtocol {
     override func stopLoading() { }
 
     override func startLoading() {
-        self.client?.urlProtocol(self, didLoad: UrlSimulatedProtocolClass.stubbedResponseData ?? Data())
+        if let erro = UrlSimulatedProtocolClass.erro { [self]
+            client?.urlProtocol(self, didFailWithError: erro)
+        } else {
+            client?.urlProtocol(self, didLoad: UrlSimulatedProtocolClass.stubbedResponseData ?? Data.init())
+        }
         self.client?.urlProtocolDidFinishLoading(self)
     }
 }

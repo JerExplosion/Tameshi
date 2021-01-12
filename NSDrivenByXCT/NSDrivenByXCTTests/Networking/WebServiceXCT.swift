@@ -73,7 +73,26 @@ class WebServiceXCT: XCTestCase {
         })
         self.wait(for: [expectation], timeout: 3)
     }
+    
+    
+    func testingWwithFailedUrlRequest() {
+//    let expectation = self.expectation(description: "expectation for a failed request")
+        let expectation = XCTestExpectation(description: "expectation for a failed request")
+        
+        let erroDepiction = "localized depiction of the erro"
+        UrlSimulatedProtocolClass.erro = SUpErrors.failedRequestErro(erroDescription: erroDepiction)
+        
+        if let sUpRequestModel = sUpRequestModel {
+            sut?.sUp(with: sUpRequestModel, completionHandler: { (responseModel, erro) in
+                XCTAssertEqual(SUpErrors.failedRequestErro(erroDescription: erroDepiction), erro)
+                expectation.fulfill()
+            })
+        }
+        self.wait(for: [expectation], timeout: 3.4)
+    }
 }
-
-
+   
+//   let erroDepiction = "The operation couldn’t be completed. (NSDrivenByXCT.SUpErrors error 0.)"  (shortcut hh)
 //      let sUpRequestModel = SUpRequestModel(first: "O", last: "S", email: "os.os", passcode: "os")
+             
+
