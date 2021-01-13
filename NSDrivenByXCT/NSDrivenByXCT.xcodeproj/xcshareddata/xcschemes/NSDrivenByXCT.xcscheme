@@ -39,6 +39,16 @@
                ReferencedContainer = "container:NSDrivenByXCT.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8F727CD325AF99CB0016181F"
+               BuildableName = "NSDrivenByXCTUITests.xctest"
+               BlueprintName = "NSDrivenByXCTUITests"
+               ReferencedContainer = "container:NSDrivenByXCT.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
