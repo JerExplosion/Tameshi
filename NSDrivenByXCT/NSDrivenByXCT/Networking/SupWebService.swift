@@ -19,7 +19,7 @@ class SupWebService {
     
     func sUp(with requestModel: SUpRequestModel, completionHandler: @escaping (SUpResponseModel?, SUpErrors?) -> Void) {
         guard let urlObj = URL(string: urlString) else {
-            completionHandler(nil ,SUpErrors.invalidUrlStrErro)
+            completionHandler(nil, SUpErrors.invalidUrlStrErro)
             return
         }
         var request = URLRequest(url: urlObj)
@@ -29,6 +29,11 @@ class SupWebService {
         request.httpBody = try? JSONEncoder().encode(requestModel)
         
         let dTask = mockUrlSession.dataTask(with: request) { (data, response, erro) in
+            
+            if let requestErro = erro {
+                completionHandler(nil, SUpErrors.failedRequestErro(erroDescription: requestErro.localizedDescription))
+            }
+            
             if let data = data, let sUpResponseModel = try? JSONDecoder().decode(SUpResponseModel.self, from: data) {
                 completionHandler(sUpResponseModel, nil)
             } else {

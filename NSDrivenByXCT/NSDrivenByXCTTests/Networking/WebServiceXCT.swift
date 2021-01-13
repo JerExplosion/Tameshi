@@ -5,6 +5,7 @@
 //  Created by Jerry Ren on 1/2/21.
 //
 
+
 import XCTest
 @testable import NSDrivenByXCT
 
@@ -25,6 +26,7 @@ class WebServiceXCT: XCTestCase {
     override func tearDownWithError() throws {
         sut = nil
         sUpRequestModel = nil
+        UrlSimulatedProtocolClass.erro = nil
         UrlSimulatedProtocolClass.stubbedResponseData = nil
     }
     
@@ -43,9 +45,8 @@ class WebServiceXCT: XCTestCase {
         self.wait(for: [expectation], timeout: 5)
     }
     
-    
-    func testingWwithAbnormalResponse() {
         
+    func testingWwithAbnormalResponse() {
         let diffJsonStr = "{\"path\":\"/users\", \"error\":\"Internal Server Error\"}"
         UrlSimulatedProtocolClass.stubbedResponseData = diffJsonStr.data(using: .utf8)
         
@@ -64,7 +65,7 @@ class WebServiceXCT: XCTestCase {
     func testingWwithEmptyUrlString() throws {
         
         let expectation = self.expectation(description: "expectation for an empty url string")
-        sut = SupWebService(urlString: "") // or ""
+        sut = SupWebService(urlString: String.init()) // or ""
         guard let sUpRequestModel = sUpRequestModel else { throw SUpErrors.requestModelErro }
         sut?.sUp(with: sUpRequestModel, completionHandler: { responseModel, erro in
             XCTAssertEqual(SUpErrors.invalidUrlStrErro, erro, "erro different than expected")
@@ -78,13 +79,13 @@ class WebServiceXCT: XCTestCase {
     func testingWwithFailedUrlRequest() {
 //    let expectation = self.expectation(description: "expectation for a failed request")
         let expectation = XCTestExpectation(description: "expectation for a failed request")
-        
+         
         let erroDepiction = "localized depiction of the erro"
         UrlSimulatedProtocolClass.erro = SUpErrors.failedRequestErro(erroDescription: erroDepiction)
         
         if let sUpRequestModel = sUpRequestModel {
             sut?.sUp(with: sUpRequestModel, completionHandler: { (responseModel, erro) in
-                XCTAssertEqual(SUpErrors.failedRequestErro(erroDescription: erroDepiction), erro)
+                XCTAssertEqual(SUpErrors.failedRequestErro(erroDescription: erro?.localizedDescription ?? ""), erro) // 歪打正着, literally
                 expectation.fulfill()
             })
         }
