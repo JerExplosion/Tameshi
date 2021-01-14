@@ -15,7 +15,6 @@
 		8F5D371225A15A750047F650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5D371025A15A750047F650 /* Main.storyboard */; };
 		8F5D371425A15A770047F650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5D371325A15A770047F650 /* Assets.xcassets */; };
 		8F5D371725A15A770047F650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5D371525A15A770047F650 /* LaunchScreen.storyboard */; };
-		8F5D372625A15AD30047F650 /* NSDrivenByXCTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D372525A15AD30047F650 /* NSDrivenByXCTTests.swift */; };
 		8F5D373025A15B110047F650 /* WebServiceXCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D372F25A15B110047F650 /* WebServiceXCT.swift */; };
 		8F5D373425A15BA20047F650 /* SupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D373325A15BA20047F650 /* SupWebService.swift */; };
 		8F5D373825A15CA80047F650 /* SUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D373725A15CA80047F650 /* SUpRequestModel.swift */; };
@@ -53,7 +52,6 @@
 		8F5D371625A15A770047F650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F5D371825A15A770047F650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F5D372325A15AD30047F650 /* NSDrivenByXCTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDrivenByXCTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F5D372525A15AD30047F650 /* NSDrivenByXCTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDrivenByXCTTests.swift; sourceTree = "<group>"; };
 		8F5D372725A15AD30047F650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F5D372F25A15B110047F650 /* WebServiceXCT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceXCT.swift; sourceTree = "<group>"; };
 		8F5D373325A15BA20047F650 /* SupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupWebService.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 		8F43E69C25A2AAED00A9AEBB /* UselessForNow */ = {
 			isa = PBXGroup;
 			children = (
-				8F5D372525A15AD30047F650 /* NSDrivenByXCTTests.swift */,
 			);
 			path = UselessForNow;
 			sourceTree = "<group>";
@@ -336,7 +333,6 @@
 			files = (
 				8F5D373025A15B110047F650 /* WebServiceXCT.swift in Sources */,
 				8F8902F725A63AAC0061EE14 /* UrlProtocolClassOverridden.swift in Sources */,
-				8F5D372625A15AD30047F650 /* NSDrivenByXCTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
