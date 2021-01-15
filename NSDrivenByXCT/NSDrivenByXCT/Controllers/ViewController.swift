@@ -9,11 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var passcodeTextfield: UITextField!
+    @IBOutlet weak var usernameTextfield: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemPink
+  //      view.backgroundColor = .systemPink
     }
-
-
 }
+
 
